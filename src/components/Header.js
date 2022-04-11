@@ -7,14 +7,16 @@ export default function Header() {
         <header style={{height:"100px", backgroundColor:"#E50914"}}>
             <Navbar>
                 <Container>
-                    <Navbar.Brand className="mx-auto">
-                        <img
-                            src={logo}
-                            className=""
-                            alt="Lootflix logo"
-                        />
-                    </Navbar.Brand>
-                    <a href="https://github.com/loot1" target="_blank" rel="noreferrer">
+                    <NavLink to="/" className="mx-auto">
+                        <Navbar.Brand>
+                            <img
+                                src={logo}
+                                className=""
+                                alt="Lootflix logo"
+                            />
+                        </Navbar.Brand>
+                    </NavLink>
+                    <a href="https://github.com/Loot1/Lootflix" target="_blank" rel="noreferrer">
                         <ion-icon name="logo-github" size="large" style={{color:"white"}}/>
                     </a>
                 </Container>
