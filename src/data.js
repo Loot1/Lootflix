@@ -41,5 +41,40 @@ export const items = [
         name:"The defenders",
         link:"/the-defenders/",
         image:defenders
+    },
+    {
+        name:"The sinner",
+        link:"/the-sinner/",
+        image:sinner
+    },
+    {
+        name:"Venom",
+        link:"/venom/",
+        image:venom
+    },
+    {
+        name:"El irlandes",
+        link:"/el-irlandes/",
+        image:irlandes
+    },
+    {
+        name:"Suits",
+        link:"/suits/",
+        image:suits
+    },
+    {
+        name:"LA MADICION DE BLY MANOR",
+        link:"/la-madicion/",
+        image:maldicion
+    },
+    {
+        name:"Triple frontera",
+        link:"/triple-frontera/",
+        image:frontera
+    },
+    {
+        name:"The defenders",
+        link:"/the-defenders/",
+        image:defenders
     }
 ]
