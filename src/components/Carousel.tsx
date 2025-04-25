@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom'
+import { useState } from 'react';
 
 import '../assets/style/carousel.css'
 import "slick-carousel/slick/slick.css";
@@ -7,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 import slider from 'react-slick/lib/slider';
+import { NavLink } from 'react-router';
 
 export default function Carousel({name,items}) {
     const [slider, setSlider] = useState(null)
@@ -53,8 +53,12 @@ export default function Carousel({name,items}) {
             <Slider {...settings} ref={that => (setSlider(that))} className="carousel-section">
                 {
                     items.map((serie) => (
-                        <NavLink to={serie.link} className="carousel-card" key={serie.link}>
-                            <img src={serie.image} className="img-fluid" alt={"Image de couverture de " + serie.name} />
+                        <NavLink to={serie.link} className="carousel-card" key={serie.link} style={{}}>
+                            <img
+                                src={serie.image}
+                                alt={"Image de couverture de " + serie.name}
+                                style={{maxHeight:"192px", maxWidth:"392px", objectFit:"cover"}}
+                            />
                             <div className="carousel-text">
                                 <p>{serie.name}</p>
                             </div>

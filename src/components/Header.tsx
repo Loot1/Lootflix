@@ -1,6 +1,6 @@
 import {Navbar, Container} from 'react-bootstrap';
 import logo from '../assets/img/lootflix.png'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router';
 
 export default function Header() {
     return (

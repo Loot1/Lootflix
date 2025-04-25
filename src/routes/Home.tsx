@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from '../components/Carousel.js'
-import { items } from '../data.js'
+import { items, test } from '../data.js'
 
 export default function HomePage() {
     return (
