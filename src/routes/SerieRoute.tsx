@@ -1,7 +1,7 @@
 import { useParams } from 'react-router';
 import { items } from '../data.js';
 
-export default function SeriePage() {
+export function SerieRoute() {
     const { name } = useParams()
     return (
         <div>

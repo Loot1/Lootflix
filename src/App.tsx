@@ -1,19 +1,16 @@
-import { BrowserRouter, Routes, Route } from 'react-router'
-import Header from './components/Header'
-import HomePage from './routes/Home'
-import NoMatchPage from './routes/NoMatch'
-import SeriePage from './routes/Serie'
+import { Routes, Route } from 'react-router'
+import { HomeRoute, SerieRoute, NoMatchRoute } from './routes'
+import { Layout } from './components'
 
 function App() {
     return (
-        <BrowserRouter>
-            <Header />
+        <Layout>
             <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/:name" element={<SeriePage />} />
-                <Route path="*" element={<NoMatchPage />} />
+                <Route path="/" element={<HomeRoute />} />
+                <Route path="/:name" element={<SerieRoute />} />
+                <Route path="*" element={<NoMatchRoute />} />
             </Routes>
-        </BrowserRouter>
+        </Layout>
     )
 }
 

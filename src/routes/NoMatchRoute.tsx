@@ -1,4 +1,4 @@
-export default function NoMatchPage() {
+export function NoMatchRoute() {
     return (
         <div>
             <p>

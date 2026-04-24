@@ -1,15 +1,14 @@
-import React from 'react';
-import Carousel from '../components/Carousel.js'
 import { items, test } from '../data.js'
+import { Carousel } from '../components/index.js';
 
-export default function HomePage() {
+export function HomeRoute() {
     return (
         <main>
             <div className="mt-5">
                 <Carousel name="Mes séries favorites" items={items}/>
             </div>
             <div className="mt-3">
-                <Carousel name="Mes séries fgh" items={items.filter(serie => serie.name === "Suits")}/>
+                <Carousel name="Mes séries fgh" items={test}/>
             </div>
         </main>
     )

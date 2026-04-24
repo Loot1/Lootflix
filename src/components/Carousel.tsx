@@ -5,17 +5,30 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
-import slider from 'react-slick/lib/slider';
 import { NavLink } from 'react-router';
 
-export default function Carousel({name,items}) {
-    const [slider, setSlider] = useState(null)
+type CarouselItem = {
+    name: string
+    link: string
+    image: string
+}
+
+type CarouselProps = {
+    name: string
+    items: CarouselItem[]
+}
+
+export function Carousel({name,items}: CarouselProps) {
+    const [slider, setSlider] = useState<Slider | null>(null)
+    const Slick = (Slider as any).default ?? Slider
     const settings = {
+        slidesToShow: 6,
+        slidesToScroll: 6,
         speed: 500,
         infinite: false,
         swipeToSlide: true,
         lazyLoad: "ondemand",
-        arrow: false,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 3100,
@@ -47,10 +60,10 @@ export default function Carousel({name,items}) {
         <div>
             <div className="d-flex">
                 <h2 className="py-0 my-0 carousel-title">{name}</h2>
-                <ion-icon name="caret-back-outline" size="large" style={{color: "#E50914", cursor: "pointer"}} onClick={() => slider.slickPrev()}></ion-icon>
-                <ion-icon name="caret-forward-outline" size="large" style={{color: "#E50914", cursor: "pointer"}} onClick={() => slider.slickNext()}></ion-icon>
+                <ion-icon name="caret-back-outline" size="large" style={{color: "#E50914", cursor: "pointer"}} onClick={() => slider?.slickPrev()}></ion-icon>
+                <ion-icon name="caret-forward-outline" size="large" style={{color: "#E50914", cursor: "pointer"}} onClick={() => slider?.slickNext()}></ion-icon>
             </div>
-            <Slider {...settings} ref={that => (setSlider(that))} className="carousel-section">
+            <Slick {...settings} ref={(that: Slider | null) => (setSlider(that))} className="carousel-section">
                 {
                     items.map((serie) => (
                         <NavLink to={serie.link} className="carousel-card" key={serie.link} style={{}}>
@@ -66,7 +79,7 @@ export default function Carousel({name,items}) {
                         </NavLink>
                     ))
                 }
-            </Slider>
+            </Slick>
         </div>
     )
 }
