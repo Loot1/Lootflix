@@ -1,3 +1,4 @@
+/* eslint-disable */
 
 export type GeneratedMedia = {
     tmdbId: number
@@ -24,7 +25,7 @@ export type GeneratedMedia = {
     commentaire: string | null
 }
 
-export const generatedAt = "2026-04-25T13:21:52.239Z"
+export const generatedAt = "2026-04-25T17:11:27.926Z"
 
 export const generatedMedia: GeneratedMedia[] = [
     {
@@ -580,7 +581,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 7.72,
+        "voteAverage": 7.719,
         "originCountries": [
             "US"
         ],
@@ -1036,7 +1037,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 7.76,
+        "voteAverage": 7.759,
         "originCountries": [
             "US"
         ],
@@ -1158,7 +1159,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.459,
+        "voteAverage": 8.5,
         "originCountries": [
             "US"
         ],
@@ -1287,7 +1288,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "War & Politics",
             "Crime"
         ],
-        "voteAverage": 7.588,
+        "voteAverage": 7.586,
         "originCountries": [
             "US"
         ],
@@ -1328,7 +1329,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.675,
+        "voteAverage": 7.674,
         "originCountries": [
             "US"
         ],
@@ -1416,7 +1417,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 8.2,
+        "voteAverage": 8.229,
         "originCountries": [
             "ES"
         ],
@@ -1429,8 +1430,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Álvaro Morte",
             "Pedro Alonso",
             "Miguel Herrán",
-            "Esther Acebo",
             "Jaime Lorente",
+            "Esther Acebo",
             "Najwa Nimri"
         ],
         "numberOfSeasons": 3,
@@ -1667,7 +1668,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 7.476,
+        "voteAverage": 7.475,
         "originCountries": [
             "US"
         ],
@@ -1709,7 +1710,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Comédie"
         ],
-        "voteAverage": 6.289,
+        "voteAverage": 6.3,
         "originCountries": [
             "US"
         ],
@@ -1897,7 +1898,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "types": [
             "policier"
         ],
-        "note": null,
+        "note": 8,
         "commentaire": null
     },
     {
@@ -2571,7 +2572,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 6.848,
+        "voteAverage": 6.8,
         "originCountries": [
             "US"
         ],
@@ -2682,6 +2683,46 @@ export const generatedMedia: GeneratedMedia[] = [
         "types": [
             "policier"
         ],
+        "note": null,
+        "commentaire": null
+    },
+    {
+        "tmdbId": 201992,
+        "mediaType": "tv",
+        "slug": "the-rookie-feds",
+        "title": "The Rookie: Feds",
+        "originalTitle": "The Rookie: Feds",
+        "overview": "L'agent spécial Simone Clark, la plus ancienne recrue du FBI, est une force de la nature, l'incarnation vivante d'un rêve différé – et elle travaille avec ses nouveaux collègues du bureau du Bureau de Los Angeles pour faire tomber les criminels les plus coriaces du pays.",
+        "firstReleaseDate": "2022-09-27",
+        "lastReleaseDate": "2023-05-02",
+        "status": "Canceled",
+        "genres": [
+            "Crime",
+            "Drame"
+        ],
+        "voteAverage": 7.104,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English",
+            "Français"
+        ],
+        "topCast": [
+            "Niecy Nash",
+            "Felix Solis",
+            "James Lesure",
+            "Britt Robertson",
+            "Kevin Zegers",
+            "Frankie Faison",
+            "Devika Bhise"
+        ],
+        "numberOfSeasons": 1,
+        "numberOfEpisodes": 22,
+        "runtimeMinutes": 42,
+        "posterPath": "/generated/images/the-rookie-feds-201992-poster.jpg",
+        "backdropPath": "/generated/images/the-rookie-feds-201992-backdrop.jpg",
+        "types": [],
         "note": null,
         "commentaire": null
     },
@@ -2915,6 +2956,7 @@ export const generatedSections = {
     "watchHistory": [
         "person-of-interest",
         "suits-avocats-sur-mesure",
-        "blindspot"
+        "blindspot",
+        "the-rookie-feds"
     ]
 }
