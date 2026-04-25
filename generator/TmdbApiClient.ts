@@ -139,12 +139,12 @@ export class TmdbApiClient {
         return score
     }
 
-    async fetchDetails(tmdbId: number, mediaType: MediaType, language: string): Promise<any> {
-        return this.request<any>(`/${mediaType}/${tmdbId}`, { language })
+    async fetchDetails(tmdbId: number, mediaType: MediaType, language: string): Promise<Record<string, unknown>> {
+        return this.request<Record<string, unknown>>(`/${mediaType}/${tmdbId}`, { language })
     }
 
-    async fetchCredits(tmdbId: number, mediaType: MediaType, language: string): Promise<any> {
-        return this.request<any>(`/${mediaType}/${tmdbId}/credits`, { language })
+    async fetchCredits(tmdbId: number, mediaType: MediaType, language: string): Promise<Record<string, unknown>> {
+        return this.request<Record<string, unknown>>(`/${mediaType}/${tmdbId}/credits`, { language })
     }
 
     async downloadImage(imagePathFromTmdb: string | null, outputRelativePath: string): Promise<string | null> {

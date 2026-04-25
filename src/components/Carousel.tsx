@@ -36,14 +36,14 @@ export function Carousel({name, items, sectionIcon}: CarouselProps) {
     const [slider, setSlider] = useState<Slider | null>(null)
     const sectionIconName = sectionIcon ?? iconForSectionName(name)
     const isBackdropCarousel = items.length > 0 && items.every((item) => item.imageMode === 'backdrop')
-    const Slick = (Slider as any).default ?? Slider
+    const Slick = (Slider as typeof Slider & { default?: typeof Slider }).default ?? Slider
     const settings = {
         slidesToShow: isBackdropCarousel ? 4 : 6,
         slidesToScroll: isBackdropCarousel ? 4 : 6,
         speed: 500,
         infinite: false,
         swipeToSlide: true,
-        lazyLoad: 'ondemand',
+        lazyLoad: 'ondemand' as const,
         arrows: false,
         responsive: [
             {

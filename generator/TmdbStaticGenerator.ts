@@ -5,6 +5,33 @@ import { TmdbApiClient } from './TmdbApiClient'
 import { TmdbLibraryStore } from './TmdbLibraryStore'
 import { GeneratedMedia, LibraryEntry, MediaType, ResolvedReference, SectionName } from './types'
 
+type TmdbDetailsResponse = {
+    name?: string
+    title?: string
+    original_name?: string
+    original_title?: string
+    first_air_date?: string
+    release_date?: string
+    last_air_date?: string
+    episode_run_time?: number[]
+    runtime?: number
+    poster_path?: string
+    backdrop_path?: string
+    overview?: string
+    status?: string
+    genres?: Array<{ name?: string }>
+    vote_average?: number
+    origin_country?: string[]
+    production_countries?: Array<{ iso_3166_1?: string }>
+    spoken_languages?: Array<{ name?: string }>
+    number_of_seasons?: number
+    number_of_episodes?: number
+}
+
+type TmdbCreditsResponse = {
+    cast?: Array<{ name?: string }>
+}
+
 export class TmdbStaticGenerator {
     private readonly api: TmdbApiClient
     private readonly libraryStore: TmdbLibraryStore
@@ -149,8 +176,8 @@ export class TmdbStaticGenerator {
     }
 
     private async fetchMediaFromTmdb(tmdbId: number, mediaType: MediaType, language: string): Promise<GeneratedMedia> {
-        const details = await this.api.fetchDetails(tmdbId, mediaType, language)
-        const credits = await this.api.fetchCredits(tmdbId, mediaType, language)
+        const details = await this.api.fetchDetails(tmdbId, mediaType, language) as TmdbDetailsResponse
+        const credits = await this.api.fetchCredits(tmdbId, mediaType, language) as TmdbCreditsResponse
 
         const title = mediaType === 'tv' ? details.name : details.title
         const originalTitle = mediaType === 'tv' ? details.original_name : details.original_title
@@ -162,7 +189,7 @@ export class TmdbStaticGenerator {
                     : null
                 : details.runtime ?? null
 
-        const topCast = this.uniqueStrings((credits.cast ?? []).slice(0, 8).map((actor: any) => actor.name ?? ''))
+        const topCast = this.uniqueStrings((credits.cast ?? []).slice(0, 8).map((actor) => actor.name ?? ''))
         const slug = this.slugify(title ?? `${mediaType}-${tmdbId}`)
 
         const posterPath = await this.api.downloadImage(
@@ -185,13 +212,13 @@ export class TmdbStaticGenerator {
             firstReleaseDate: firstReleaseDate ?? null,
             lastReleaseDate: mediaType === 'tv' ? details.last_air_date ?? null : null,
             status: details.status ?? null,
-            genres: this.uniqueStrings((details.genres ?? []).map((genre: any) => genre.name ?? '')),
+            genres: this.uniqueStrings((details.genres ?? []).map((genre) => genre.name ?? '')),
             voteAverage: Number(details.vote_average ?? 0),
             originCountries:
                 mediaType === 'tv'
                     ? this.uniqueStrings(details.origin_country ?? [])
-                    : this.uniqueStrings((details.production_countries ?? []).map((country: any) => country.iso_3166_1 ?? '')),
-            spokenLanguages: this.uniqueStrings((details.spoken_languages ?? []).map((lang: any) => lang.name ?? '')),
+                    : this.uniqueStrings((details.production_countries ?? []).map((country) => country.iso_3166_1 ?? '')),
+            spokenLanguages: this.uniqueStrings((details.spoken_languages ?? []).map((lang) => lang.name ?? '')),
             topCast,
             numberOfSeasons: mediaType === 'tv' ? (details.number_of_seasons ?? null) : null,
             numberOfEpisodes: mediaType === 'tv' ? (details.number_of_episodes ?? null) : null,

@@ -59,6 +59,14 @@ function compareBySortKey(left: (typeof mediaCatalog)[number], right: (typeof me
     return toDateValue(left.firstReleaseDate) - toDateValue(right.firstReleaseDate)
 }
 
+function SortIcon({ column, sortStack }: { column: SortKey; sortStack: SortEntry[] }) {
+    const index = sortStack.findIndex((entry) => entry.key === column)
+    if (index === -1) return <ion-icon name="swap-vertical-outline" />
+    const entry = sortStack[index]
+    const badge = sortStack.length > 1 ? <sup className="sort-badge">{index + 1}</sup> : null
+    return <>{entry.direction === 'asc' ? <ion-icon name="chevron-up-outline" /> : <ion-icon name="chevron-down-outline" />}{badge}</>
+}
+
 export function SeriesRoute() {
     const [sortStack, setSortStack] = useState<SortEntry[]>([])
 
@@ -69,14 +77,6 @@ export function SeriesRoute() {
             if (existing.direction === 'asc') return prev.map((entry) => entry.key === key ? { key, direction: 'desc' } : entry)
             return prev.filter((entry) => entry.key !== key)
         })
-    }
-
-    function SortIcon({ column }: { column: SortKey }) {
-        const index = sortStack.findIndex((entry) => entry.key === column)
-        if (index === -1) return <ion-icon name="swap-vertical-outline" />
-        const entry = sortStack[index]
-        const badge = sortStack.length > 1 ? <sup className="sort-badge">{index + 1}</sup> : null
-        return <>{entry.direction === 'asc' ? <ion-icon name="chevron-up-outline" /> : <ion-icon name="chevron-down-outline" />}{badge}</>
     }
 
     function renderPersonalRating(note: number | null) {
@@ -125,13 +125,13 @@ export function SeriesRoute() {
                 <Table responsive className="mb-0 series-table" hover>
                     <thead>
                         <tr>
-                            <th role="button" onClick={() => handleSort('name')} className="series-th-sortable">Série <SortIcon column="name" /></th>
-                            <th role="button" onClick={() => handleSort('date')} className="series-th-sortable">Date <SortIcon column="date" /></th>
-                            <th role="button" onClick={() => handleSort('tmdb')} className="series-th-sortable">TMDB <SortIcon column="tmdb" /></th>
-                            <th role="button" onClick={() => handleSort('personal')} className="series-th-sortable">Ma note <SortIcon column="personal" /></th>
-                            <th role="button" onClick={() => handleSort('seasons')} className="series-th-sortable">Saisons <SortIcon column="seasons" /></th>
-                            <th role="button" onClick={() => handleSort('episodes')} className="series-th-sortable">Épisodes <SortIcon column="episodes" /></th>
-                            <th role="button" onClick={() => handleSort('status')} className="series-th-sortable">Statut <SortIcon column="status" /></th>
+                            <th role="button" onClick={() => handleSort('name')} className="series-th-sortable">Série <SortIcon column="name" sortStack={sortStack} /></th>
+                            <th role="button" onClick={() => handleSort('date')} className="series-th-sortable">Date <SortIcon column="date" sortStack={sortStack} /></th>
+                            <th role="button" onClick={() => handleSort('tmdb')} className="series-th-sortable">TMDB <SortIcon column="tmdb" sortStack={sortStack} /></th>
+                            <th role="button" onClick={() => handleSort('personal')} className="series-th-sortable">Ma note <SortIcon column="personal" sortStack={sortStack} /></th>
+                            <th role="button" onClick={() => handleSort('seasons')} className="series-th-sortable">Saisons <SortIcon column="seasons" sortStack={sortStack} /></th>
+                            <th role="button" onClick={() => handleSort('episodes')} className="series-th-sortable">Épisodes <SortIcon column="episodes" sortStack={sortStack} /></th>
+                            <th role="button" onClick={() => handleSort('status')} className="series-th-sortable">Statut <SortIcon column="status" sortStack={sortStack} /></th>
                         </tr>
                     </thead>
                     <tbody>
