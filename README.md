@@ -1,18 +1,18 @@
-# Lootflix
+# 🎬 Lootflix
 
 Lootflix is a personal TV tracking web app built with React and generated TMDB data.
 It showcases watched series, personal ratings, comments, and type-based recommendations.
 
-## Project Purpose
+## 🎯 Project Purpose
 
 This project is designed to:
-- Keep a personal catalog of watched TV series.
-- Display favorites, watch history, and category carousels on the home page.
-- Browse all series in a sortable table.
-- Show a detailed page for each series with TMDB metadata and personal review notes.
-- Generate static data and optimized images from TMDB using a local JSON library.
+- 📚 Keep a personal catalog of watched TV series.
+- 🏠 Display favorites, watch history, and category carousels on the home page.
+- 📋 Browse all series in a sortable table.
+- 🔍 Show a detailed page for each series with TMDB metadata and personal review notes.
+- ⚙️ Generate static data and optimized images from TMDB using a local JSON library.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 Frontend:
 - React 19
@@ -32,7 +32,7 @@ Data generation pipeline:
 - `sharp` for image optimization (JPEG)
 - Custom generator services in `generator/`
 
-## Repository Structure
+## 📁 Repository Structure
 
 - `src/`: React application code (routes, components, styles, generated data).
 - `src/generated/tmdb-media.generated.ts`: generated static media file consumed by the app.
@@ -41,7 +41,7 @@ Data generation pipeline:
 - `tmdb.library.json`: source library (entries, sections, custom types).
 - `update-tmdb-data.ts`: CLI entry point for generation/update commands.
 
-## Prerequisites
+## ✅ Prerequisites
 
 - Node.js 20+ recommended
 - npm
@@ -49,7 +49,7 @@ Data generation pipeline:
   - `TMDB_TOKEN` (recommended), or
   - `TMDB_KEY`
 
-## Environment Setup
+## 🔐 Environment Setup
 
 Create a `.env` file at the project root:
 
@@ -59,13 +59,13 @@ TMDB_TOKEN=your_tmdb_read_access_token
 TMDB_KEY=your_tmdb_api_key
 ```
 
-## Installation
+## 📦 Installation
 
 ```bash
 npm install
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the app in development mode:
 
@@ -91,7 +91,7 @@ Lint the codebase:
 npm run lint
 ```
 
-## TMDB Data Workflow
+## 🎥 TMDB Data Workflow
 
 Regenerate static data and images from `tmdb.library.json`:
 
@@ -111,7 +111,7 @@ Add a title without running full regeneration:
 npm run tmdb:add -- --title="Series Name" --no-update
 ```
 
-## Deployment
+## 🌐 Deployment
 
 Deploy the `dist/` build to GitHub Pages:
 
@@ -119,7 +119,7 @@ Deploy the `dist/` build to GitHub Pages:
 npm run deploy
 ```
 
-## Notes
+## 📝 Notes
 
 - Generated content is localized in French (`fr-FR`) in the data workflow.
 - API requests are rate-limited in the generator.
