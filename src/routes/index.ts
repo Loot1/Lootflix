@@ -1,3 +1,6 @@
 export { HomeRoute } from './HomeRoute'
+export { SeriesRoute } from './SeriesRoute'
+export { FilmRoute } from './FilmRoute'
+export { LegalRoute } from './LegalRoute'
 export { NoMatchRoute } from './NoMatchRoute'
 export { SerieRoute } from './SerieRoute'

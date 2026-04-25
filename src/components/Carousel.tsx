@@ -1,50 +1,78 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 import '../assets/style/carousel.css'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
-import Slider from "react-slick";
-import { NavLink } from 'react-router';
+import Slider from 'react-slick'
+import { NavLink } from 'react-router'
+import { Button } from 'react-bootstrap'
 
 type CarouselItem = {
     name: string
     link: string
     image: string
+    imageMode: 'poster' | 'backdrop'
 }
 
 type CarouselProps = {
     name: string
     items: CarouselItem[]
+    sectionIcon?: string
 }
 
-export function Carousel({name,items}: CarouselProps) {
+function iconForSectionName(sectionName: string): string {
+    const normalizedName = sectionName.toLowerCase()
+    if (normalizedName.includes('polici')) return 'shield-checkmark-outline'
+    if (normalizedName.includes('action') || normalizedName.includes('aventure')) return 'flash-outline'
+    if (normalizedName.includes('dram')) return 'film-outline'
+    if (normalizedName.includes('science-fiction')) return 'planet-outline'
+    if (normalizedName.includes('favori')) return 'heart-outline'
+    if (normalizedName.includes('dernier') || normalizedName.includes('visionnage')) return 'time-outline'
+    return 'albums-outline'
+}
+
+export function Carousel({name, items, sectionIcon}: CarouselProps) {
     const [slider, setSlider] = useState<Slider | null>(null)
+    const sectionIconName = sectionIcon ?? iconForSectionName(name)
+    const isBackdropCarousel = items.length > 0 && items.every((item) => item.imageMode === 'backdrop')
     const Slick = (Slider as any).default ?? Slider
     const settings = {
-        slidesToShow: 6,
-        slidesToScroll: 6,
+        slidesToShow: isBackdropCarousel ? 4 : 6,
+        slidesToScroll: isBackdropCarousel ? 4 : 6,
         speed: 500,
         infinite: false,
         swipeToSlide: true,
-        lazyLoad: "ondemand",
+        lazyLoad: 'ondemand',
         arrows: false,
         responsive: [
             {
                 breakpoint: 3100,
-                settings: { slidesToShow: 6, slidesToScroll: 6 }
+                settings: {
+                    slidesToShow: isBackdropCarousel ? 4 : 6,
+                    slidesToScroll: isBackdropCarousel ? 4 : 6
+                }
             },
             {
                 breakpoint: 2500,
-                settings: { slidesToShow: 5, slidesToScroll: 5 }
+                settings: {
+                    slidesToShow: isBackdropCarousel ? 4 : 5,
+                    slidesToScroll: isBackdropCarousel ? 4 : 5
+                }
             },
             {
                 breakpoint: 1800,
-                settings: { slidesToShow: 4, slidesToScroll: 4 }
+                settings: {
+                    slidesToShow: isBackdropCarousel ? 3 : 4,
+                    slidesToScroll: isBackdropCarousel ? 3 : 4
+                }
             },
             {
                 breakpoint: 1420,
-                settings: { slidesToShow: 3, slidesToScroll: 3 }
+                settings: {
+                    slidesToShow: isBackdropCarousel ? 2 : 3,
+                    slidesToScroll: isBackdropCarousel ? 2 : 3
+                }
             },
             {
                 breakpoint: 1024,
@@ -56,30 +84,41 @@ export function Carousel({name,items}: CarouselProps) {
             }
         ]
     }
+
     return (
-        <div>
-            <div className="d-flex">
-                <h2 className="py-0 my-0 carousel-title">{name}</h2>
-                <ion-icon name="caret-back-outline" size="large" style={{color: "#E50914", cursor: "pointer"}} onClick={() => slider?.slickPrev()}></ion-icon>
-                <ion-icon name="caret-forward-outline" size="large" style={{color: "#E50914", cursor: "pointer"}} onClick={() => slider?.slickNext()}></ion-icon>
+        <section className="carousel-wrapper">
+            <div className="d-flex justify-content-between align-items-center gap-3 mb-3 px-1">
+                <h2 className="py-0 my-0 carousel-title">
+                    <ion-icon name={sectionIconName} className="carousel-section-icon" aria-hidden="true"></ion-icon>
+                    <span>{name}</span>
+                </h2>
+                <div className="d-flex gap-2 carousel-arrows-wrap">
+                    <Button variant="outline-danger" size="sm" className="carousel-arrow" onClick={() => slider?.slickPrev()} aria-label="Carrousel precedent">
+                        <ion-icon name="caret-back-outline"></ion-icon>
+                    </Button>
+                    <Button variant="outline-danger" size="sm" className="carousel-arrow" onClick={() => slider?.slickNext()} aria-label="Carrousel suivant">
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                    </Button>
+                </div>
             </div>
             <Slick {...settings} ref={(that: Slider | null) => (setSlider(that))} className="carousel-section">
                 {
                     items.map((serie) => (
-                        <NavLink to={serie.link} className="carousel-card" key={serie.link} style={{}}>
+                        <NavLink to={serie.link} className={`carousel-card carousel-card--${serie.imageMode}`} key={serie.link}>
                             <img
                                 src={serie.image}
                                 alt={"Image de couverture de " + serie.name}
-                                style={{maxHeight:"192px", maxWidth:"392px", objectFit:"cover"}}
+                                className={`carousel-image carousel-image--${serie.imageMode}`}
                             />
                             <div className="carousel-text">
-                                <p>{serie.name}</p>
+                                <p>
+                                    <span>{serie.name}</span>
+                                </p>
                             </div>
-                            {/* TODO : check statut */}
                         </NavLink>
                     ))
                 }
             </Slick>
-        </div>
+        </section>
     )
 }

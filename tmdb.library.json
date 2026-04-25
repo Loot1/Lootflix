@@ -1,0 +1,866 @@
+{
+  "language": "fr-FR",
+  "entries": [
+    {
+      "tmdbId": 67129,
+      "mediaType": "tv",
+      "query": "APB : Alerte d'urgence",
+      "titleHint": "A.P.B. : Alerte d'urgence",
+      "types": [
+        "policier"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 8.9,
+      "commentaire": "Une super bonne série policière avec une touche de technologie moderne. Le concept de la série est vraiment très cool et m'a fait beaucoup penser à Blacklist dans l'originalité des scénarios. C'est un gros regret que cette série n'ait pas été renouvelée pour une suite."
+    },
+    {
+      "tmdbId": 1911,
+      "mediaType": "tv",
+      "query": "Bones",
+      "titleHint": "Bones",
+      "types": [
+        "policier",
+        "médical"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 5.7,
+      "commentaire": "Un des classiques de mon enfance mais une série qui a clairement perdu sa saveur au fil des saisons, les développements entre les personnes sont intéressants de temps à autre mais sans plus. J'aurai aimé que la série développe de nouvelles intrigues et n'ait pas peur de faire autre chose."
+    },
+    {
+      "tmdbId": 32755,
+      "mediaType": "tv",
+      "query": "Chicago Code",
+      "titleHint": "Chicago Code",
+      "types": [
+        "policier",
+        "chicago"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7,
+      "commentaire": "Série très courte mais qui m'a bien plus dans l'ensemble, dommage qu'elle ait été annulée, j'aurai apprécié voir la suite!"
+    },
+    {
+      "tmdbId": 1404,
+      "mediaType": "tv",
+      "query": "Chuck",
+      "titleHint": "Chuck",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 9.7,
+      "commentaire": "La première série que j'ai regardé en entier et qui m'a fait découvrir le plaisir de suivre une série sur la durée. La série est très simple sur beaucoup de points et les personnages un peu naïfs par moments, mais elle restera à jamais la première série que j'ai aimée."
+    },
+    {
+      "tmdbId": 31631,
+      "mediaType": "tv",
+      "query": "Covert Affairs",
+      "titleHint": "Covert Affairs",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 9.2,
+      "commentaire": "Une superbe série avec des intrigues renouvelées à chaque saison ! C'est si rare de voir une série d'espionnage où les personnages ne tirent pas sur tout le monde à tout bout de champ, et où les intrigues sont intelligentes et bien écrites."
+    },
+    {
+      "tmdbId": 67026,
+      "mediaType": "tv",
+      "query": "Designated Survivor",
+      "titleHint": "Designated Survivor",
+      "types": [
+        "politique"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 8.6,
+      "commentaire": "Superbe série avec de beaux développements des personnes et des doubles intrigues entre politique et espionnage en suivant le point de vue du président mais aussi de l'agent Wells qui apporte beaucoup de profondeur à la série."
+    },
+    {
+      "tmdbId": 5829,
+      "mediaType": "tv",
+      "query": "Flashpoint",
+      "titleHint": "Flashpoint",
+      "types": [
+        "swat"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 8.1,
+      "commentaire": "Incomparable à d'autres séries du même genre, cette série se démarque clairement des autres avec focus sur les personnages et leurs émotions. On est très loin des séries avec des équipes d'intervention où la moitié des scènes sont des scènes d'action."
+    },
+    {
+      "tmdbId": 76284,
+      "mediaType": "tv",
+      "query": "Gone",
+      "titleHint": "Gone",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7.1,
+      "commentaire": "La série avait du potentiel mais a été annulée après une saison, c'est vraiment dommage car les premiers épisodes étaient très prometteurs bien qu'il aurait peut-être fallu davantage développer les personnages."
+    },
+    {
+      "tmdbId": 56401,
+      "mediaType": "tv",
+      "query": "King & Maxwell",
+      "titleHint": "King & Maxwell",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7.1,
+      "commentaire": "Une série policière qui se laisse regarder mais qui n'est pas très marquante, les personnages sont sympathiques mais les intrigues sont assez classiques et ne se démarquent pas vraiment des autres séries du même genre bien que l'idée de faire une série autour des détectives privés m'ait pas mal séduite."
+    },
+    {
+      "tmdbId": 71446,
+      "mediaType": "tv",
+      "query": "La casa de papel",
+      "titleHint": "La casa de papel",
+      "types": [
+        "crime"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 8,
+      "commentaire": "Une série que tout le monde a vu et que j'ai fini par regarder très tardivement n'étant pas fan des séries super populaires. J'ai été plutôt agréablement surpris et j'ai apprécié l'originalité de la série et des personnages."
+    },
+    {
+      "tmdbId": 61378,
+      "mediaType": "tv",
+      "query": "Madam Secretary",
+      "titleHint": "Madam Secretary",
+      "types": [
+        "politique"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 8.5,
+      "commentaire": "La première série politique que j'ai eu l'occasion de regarder, le personnage principal est très bien joué et la série a su développer ses intrigues de saison en saison de manière à ne pas créer cette impression de déjà-vu."
+    },
+    {
+      "tmdbId": 1411,
+      "mediaType": "tv",
+      "query": "Person of Interest",
+      "titleHint": "Person of Interest",
+      "types": [
+        "science-fiction"
+      ],
+      "favorite": true,
+      "recentlyWatched": true,
+      "note": 9.8,
+      "commentaire": "Incontestablement une de mes séries préférées, elle présente une intrigue incroyablement bien écrite avec des personnes auxquels je me suis beaucoup attaché notamment Shaw et Root."
+    },
+    {
+      "tmdbId": 62816,
+      "mediaType": "tv",
+      "query": "Quantico",
+      "titleHint": "Quantico",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 8.3,
+      "commentaire": "J'ai beaucoup apprécié la double temporalité présente dans la série, le suspens était très bien géré et la diversité des personnages est resté claire et compréhensible tout du long."
+    },
+    {
+      "tmdbId": 63329,
+      "mediaType": "tv",
+      "query": "Rosewood",
+      "titleHint": "Rosewood",
+      "types": [],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 5.6,
+      "commentaire": "La série m'a paru très intéressante et m'a beaucoup fait penser à un Bones moderne ! J'aurai beaucoup que la relation des deux personnages principaux se développe davantage, au final, vu que la série a été annulé, cela donne une impression d'inachevée."
+    },
+    {
+      "tmdbId": 60797,
+      "mediaType": "tv",
+      "query": "Scorpion",
+      "titleHint": "Scorpion",
+      "types": [
+        "neuroatypie"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7.2,
+      "commentaire": "J'ai adoré les premières saisons de la série, chaque personnage a sa propre personnalité et ils ont tous été bien développés au fur et à mesure. Malheureusement, j'ai eu beaucoup de mal à comprendre les développements entre les personnages par la suite, comme si quelqu'un avait voulu briser tout ce qui s'était passé précédemment. Elle donne l'impression d'une fin baclée."
+    },
+    {
+      "tmdbId": 68006,
+      "mediaType": "tv",
+      "query": "Taken",
+      "titleHint": "Taken",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7,
+      "commentaire": "Comme beaucoup je pense, je connais les films Taken et je n'attendais pas grand chose de la série, mais j'ai tout de même été séduit. Ce n'est pas un classique, mais c'est très sympa tout de même!"
+    },
+    {
+      "tmdbId": 71714,
+      "mediaType": "tv",
+      "query": "The Brave",
+      "titleHint": "The Brave",
+      "types": [
+        "swat"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7.5,
+      "commentaire": "J'ai beaucoup apprécié cette série qui présente des personnes très divers et attachants. Malheureusement, la série a été annulée après une saison, c'est vraiment dommage car elle avait du potentiel et j'aurai aimé voir la suite !"
+    },
+    {
+      "tmdbId": 60802,
+      "mediaType": "tv",
+      "query": "The Last Ship",
+      "titleHint": "The Last Ship",
+      "types": [
+        "militaire"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 9.7,
+      "commentaire": "Je ne suis pas très fan de la fin même si la série envoie un beau message, toutefois, je dois avouer que c'est sûrement une des meilleures séries que j'ai pu voir! Les personnes sont attachants, l'intrigue de la série évolue sans cesse, les scènes d'action sont très bien réalisées!"
+    },
+    {
+      "tmdbId": 7235,
+      "mediaType": "tv",
+      "query": "US Marshals",
+      "titleHint": "U.S. Marshals, Protection de témoins",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7.6,
+      "commentaire": "J'ai trouvé plutôt originale le fait d'observer une US marshal, c'est une branche de la police qui n'est pas souvent mise en avant dans les autres séries du même type, les parties avec la vie personnelle de l'actrice principale ajoutent par ailleurs un petit charme!"
+    },
+    {
+      "tmdbId": 71806,
+      "mediaType": "tv",
+      "query": "Valor",
+      "titleHint": "Valor",
+      "types": [
+        "militaire"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 6.9,
+      "commentaire": "Je l'ai regardé en one-shot, c'est une série très sympa qui a une gestion du temps passé et des événements que je trouve très intéressante. Toutefois, j'aurai peut-être aimé davantage de profondeur dans le récit, je ne doute pas que cela aurait pu se faire si une saison 2 avait été réalisée."
+    },
+    {
+      "tmdbId": 61345,
+      "mediaType": "tv",
+      "query": "Z Nation",
+      "titleHint": "Z Nation",
+      "types": [
+        "zombie"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7.8,
+      "commentaire": "Une des rares séries de zombie que je trouve appréciable! Ce que j'aime avec cette série contrairement aux autres du même type, c'est que les personnes ont un objectif qui va plus que le fait même de survivre. Les personnages sont assez attachants et il y a une bonne dose d'humour!"
+    },
+    {
+      "tmdbId": 37680,
+      "mediaType": "tv",
+      "query": "Suits",
+      "titleHint": "Suits, avocats sur mesure",
+      "types": [
+        "justice"
+      ],
+      "favorite": false,
+      "recentlyWatched": true,
+      "note": 6.6,
+      "commentaire": "J'ai énormément apprécié les 4-5 premières saisons de Suits, l'histoire est invraisemblable mais les personnages créent des liens forts et répondent à des besoins mutuels. J'ai eu beaucoup de mal à comprendre ce que la série est devenu dans les saisons suivantes."
+    },
+    {
+      "tmdbId": 57243,
+      "mediaType": "tv",
+      "titleHint": "Doctor Who",
+      "types": [
+        "science-fiction"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 8,
+      "commentaire": "Un classique qui se bonifie avec le temps, j'apprécie en particulier les nouvelles saisons qui ont été réalisées, elles ajoutent du modernisme sans casser le charme de cette série iconique."
+    },
+    {
+      "tmdbId": 62710,
+      "mediaType": "tv",
+      "titleHint": "Blindspot",
+      "types": [
+        "policier",
+        "science-fiction"
+      ],
+      "favorite": true,
+      "recentlyWatched": true,
+      "note": 9,
+      "commentaire": "Une série avec des mystères incroyables, j'aime toujours quand le côté 'criminel' est davantage montré dans les séries policières. La personnage principale, Jane, est très bien jouée et crée un véritable équilibre dans la série. Je suis tout de même content que Rich ait rejoint l'équipe au bout de quelques temps car il apporte une touche de joie de vivre nécessaire."
+    },
+    {
+      "tmdbId": 62688,
+      "mediaType": "tv",
+      "titleHint": "Supergirl",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 32798,
+      "mediaType": "tv",
+      "titleHint": "Hawaii 5-0",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 8.5,
+      "commentaire": "Une très bonne série policière qui m'a d'abord séduite avec cette intrigue du jeune militaire qui vient venger la mort de son père et qui rencontre un inspecteur de police peu commun venu de New-York. La série a su bien évolué avec le temps en ayant cette idée de créer plus qu'une équipe spéciale, une vraie famille. Elle raisonne parfaitement avec les valeurs et la culture du lieu."
+    },
+    {
+      "tmdbId": 125910,
+      "mediaType": "tv",
+      "titleHint": "Young Royals",
+      "types": [
+        "amour"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 9.3,
+      "commentaire": "La relation entre les personnes principaux dispose d'une tension et d'une alchimie incroyable, c'est une série très touchante qui m'a beaucoup ému. J'ai adoré les personnages et la manière dont ils ont été développés. C'est une des rares séries qui s'est arrêtée au bon moment, sans pousser l'intrigue trop loin."
+    },
+    {
+      "tmdbId": 62858,
+      "mediaType": "tv",
+      "titleHint": "Colony",
+      "types": [
+        "science-fiction"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 6,
+      "commentaire": "La série est une vraie pépite, les personnes sont superbes et la réalisation très bien faite. Toutefois, toute la première saison est destiné à un objectif qui a été balayé d'une manière super violente dès le début de la saison 2. J'ai eu beaucoup de mal avec ce développement car j'appréciais beaucoup l'idée de famille réunie."
+    },
+    {
+      "tmdbId": 89517,
+      "mediaType": "tv",
+      "titleHint": "Tommy",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7,
+      "commentaire": "C'est compliqué de juger une série si vite annulée. J'ai beaucoup aimé l'intrigue avec cette femme cheffe de la police qui doit apprendre à se faire respecter et lutter contre la corruption. La présence du maire et de son conseiller corrompu est assez intéressante et apporte du fun à la série."
+    },
+    {
+      "tmdbId": 61550,
+      "mediaType": "tv",
+      "titleHint": "Agent Carter",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 9.6,
+      "commentaire": "Cette série constitue l'origine de beaucoup d'intrigues dans l'univers Marvel. Le personnage de Peggy Carter est incroyablement bien joué et la série a su reprendre toutes les références nécessaires pour constituer le point d'origine de Marvel. Je regrette pas mal qu'elle n'ait pas été aussi loin, elle représentant l'univers Marvel mais en plus fin et en plus abouti à mon sens."
+    },
+    {
+      "tmdbId": 43097,
+      "mediaType": "tv",
+      "titleHint": "Saving Hope : Au-delà de la médecine",
+      "types": [
+        "médical",
+        "science-fiction"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7,
+      "commentaire": "Je ne suis pas très fan d'habitude des séries qui parlent d'esprits ou de spiritualité, mais j'ai bien réussi à accrocher à cette série qui a su trouver un bon équilibre entre les intrigues médicales et les intrigues plus spirituelles. La relation entre les deux personnages principaux n'est pas ce que j'attendais mais j'ai apprécié la voir évoluer au fur et à mesure."
+    },
+    {
+      "tmdbId": 32868,
+      "mediaType": "tv",
+      "titleHint": "Nikita",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 8.6,
+      "commentaire": "Si on s'arrête aux 3 premières saisons, la série est un chef d'oeuvre et aurait dû s'arrêter là. La saison 4 brise totalement les attaches que l'on a avec les personnages et entre eux. Je comprends l'idée et la nouvelle intrigue n'est pas incohérente mais un point d'équilibre aurait dû être trouvé. L'actrice principale est dans tous les cas formidable, j'ai d'ailleurs beaucoup apprécié la revoir dans Designated Survivor."
+    },
+    {
+      "tmdbId": 61811,
+      "mediaType": "tv",
+      "titleHint": "Les Experts : Cyber",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 5.4,
+      "commentaire": "La série n'a rien de spécial mais c'est une des rares séries évoquant un petit peu les hackers que j'ai réussi à regarder. Je trouve que la série est trop restée dans le style des Experts et n'a pas su se démarquer. J'aurai attendu davantage d'attaches entre les personnages et une intrigue qui évolue."
+    },
+    {
+      "tmdbId": 95057,
+      "mediaType": "tv",
+      "titleHint": "Superman & Loïs",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 1412,
+      "mediaType": "tv",
+      "titleHint": "Arrow",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 62643,
+      "mediaType": "tv",
+      "titleHint": "DC's Legends of Tomorrow",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 97186,
+      "mediaType": "tv",
+      "titleHint": "Love, Victor",
+      "types": [
+        "amour"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 124834,
+      "mediaType": "tv",
+      "titleHint": "Heartstopper",
+      "types": [
+        "amour"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 39269,
+      "mediaType": "tv",
+      "titleHint": "Scandal",
+      "types": [
+        "politique"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 80748,
+      "mediaType": "tv",
+      "titleHint": "FBI",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 4614,
+      "mediaType": "tv",
+      "titleHint": "NCIS : Enquêtes spéciales",
+      "types": [
+        "policier"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 17610,
+      "mediaType": "tv",
+      "titleHint": "NCIS : Los Angeles",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 124271,
+      "mediaType": "tv",
+      "titleHint": "NCIS : Hawaï",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 133908,
+      "mediaType": "tv",
+      "titleHint": "SkyMed",
+      "types": [
+        "médical"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 92782,
+      "mediaType": "tv",
+      "titleHint": "Miss Marvel",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 121658,
+      "mediaType": "tv",
+      "titleHint": "FBI : International",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 71790,
+      "mediaType": "tv",
+      "titleHint": "S.W.A.T.",
+      "types": [
+        "swat"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 62650,
+      "mediaType": "tv",
+      "titleHint": "Chicago Med",
+      "types": [
+        "médical",
+        "chicago"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 44006,
+      "mediaType": "tv",
+      "titleHint": "Chicago Fire",
+      "types": [
+        "chicago"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 58841,
+      "mediaType": "tv",
+      "titleHint": "Chicago Police Department",
+      "types": [
+        "policier",
+        "chicago"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 81356,
+      "mediaType": "tv",
+      "titleHint": "Sex Education",
+      "types": [
+        "amour"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 89247,
+      "mediaType": "tv",
+      "titleHint": "Batwoman",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 114922,
+      "mediaType": "tv",
+      "titleHint": "Citadel",
+      "types": [
+        "citadel"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 154084,
+      "mediaType": "tv",
+      "titleHint": "Citadel Honey Bunny",
+      "types": [
+        "citadel"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 214032,
+      "mediaType": "tv",
+      "titleHint": "Citadel : Diana",
+      "types": [
+        "citadel"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 1407,
+      "mediaType": "tv",
+      "titleHint": "Homeland",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 113962,
+      "mediaType": "tv",
+      "titleHint": "Lioness",
+      "types": [
+        "espionnage",
+        "militaire",
+        "swat"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 60735,
+      "mediaType": "tv",
+      "titleHint": "Flash",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 46952,
+      "mediaType": "tv",
+      "query": "The Blacklist",
+      "titleHint": "The Blacklist",
+      "types": [
+        "crime",
+        "policier"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 10,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 71712,
+      "mediaType": "tv",
+      "query": "The Good Doctor",
+      "titleHint": "The Good Doctor",
+      "types": [
+        "médical"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 79744,
+      "mediaType": "tv",
+      "query": "The Rookie",
+      "titleHint": "The Rookie",
+      "types": [
+        "policier"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 1403,
+      "mediaType": "tv",
+      "query": "Marvel's Agents of S.H.I.E.L.D.",
+      "titleHint": "Marvel's Agents of S.H.I.E.L.D.",
+      "types": [
+        "super-héros"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 9,
+      "commentaire": "Très fan de la série, elle a su captiver mon attention dès le premier épisode. Les personnages sont bien développés et l'intrigue est captivante."
+    },
+    {
+      "tmdbId": 75219,
+      "mediaType": "tv",
+      "titleHint": "9-1-1",
+      "types": [
+        "secours"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 3.9,
+      "commentaire": "La série ne se démarque pas vraiment des autres séries du même genre, les personnages sont assez caricaturaux. Il arrive toujours des événements incroyables aux acteurs principaux, ce qui génère d'un coup d'énormes développement des personnages, rendant la série sans trop de saveur car finalement tout est toujours dramatique. J'ai arrêté en cours de route."
+    },
+    {
+      "tmdbId": 73375,
+      "mediaType": "tv",
+      "titleHint": "Jack Ryan",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 5,
+      "commentaire": "La série se regarde mais les intrigues sont plutôt prévisibles et tout cela manque de profondeur. Je suis pourtant assez fan de l'acteur principal qui aurait mérité de meilleurs intrigues à mon sens."
+    },
+    {
+      "tmdbId": 129552,
+      "mediaType": "tv",
+      "titleHint": "The Night Agent",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 203857,
+      "mediaType": "tv",
+      "titleHint": "La Diplomate",
+      "types": [
+        "politique"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 118642,
+      "mediaType": "tv",
+      "titleHint": "Mr & Mrs Smith",
+      "types": [
+        "espionnage"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 4,
+      "commentaire": "Le film Mr & Mrs Smith est un de mes films préférés, j'avais donc hâte de voir ce que la série allait donner, malheureusement j'ai eu beaucoup de mal à apprécier les adaptations qui ont été faites pour en faire une série. Les personnes sont très peu attachants. Je regarderai la suite tout de même."
+    },
+    {
+      "tmdbId": 222176,
+      "mediaType": "tv",
+      "titleHint": "Cat's Eyes",
+      "types": [
+        "crime"
+      ],
+      "favorite": true,
+      "recentlyWatched": false,
+      "note": 9,
+      "commentaire": "Très fan de l'animé, la série n'est pas une copie conforme et c'est sûrement pas plus mal. Elle a su s'adapter à son temps et proposer une intrigue plus moderne et plus réaliste que l'animé, j'ai hâte de voir la suite !"
+    },
+    {
+      "tmdbId": 220044,
+      "mediaType": "tv",
+      "titleHint": "Sous contrôle",
+      "types": [
+        "politique"
+      ],
+      "favorite": false,
+      "recentlyWatched": false,
+      "note": 7.3,
+      "commentaire": "Une série qui m'a beaucoup fait rire, très agréablement surpris car je ne suis pas souvent fan des productions françaises! Une bonne comédie!"
+    }
+  ]
+}

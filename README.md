@@ -1,54 +1,126 @@
-# React + TypeScript + Vite
+# Lootflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lootflix is a personal TV tracking web app built with React and generated TMDB data.
+It showcases watched series, personal ratings, comments, and type-based recommendations.
 
-Currently, two official plugins are available:
+## Project Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is designed to:
+- Keep a personal catalog of watched TV series.
+- Display favorites, watch history, and category carousels on the home page.
+- Browse all series in a sortable table.
+- Show a detailed page for each series with TMDB metadata and personal review notes.
+- Generate static data and optimized images from TMDB using a local JSON library.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Frontend:
+- React 19
+- TypeScript
+- Vite
+- React Router
+- React Bootstrap + Bootstrap 5
+- React Slick / Slick Carousel
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Tooling:
+- ESLint
+- TypeScript compiler (`tsc`)
+- TSX (for TypeScript CLI execution)
+
+Data generation pipeline:
+- TMDB API integration (token or API key)
+- `sharp` for image optimization (JPEG)
+- Custom generator services in `generator/`
+
+## Repository Structure
+
+- `src/`: React application code (routes, components, styles, generated data).
+- `src/generated/tmdb-media.generated.ts`: generated static media file consumed by the app.
+- `public/generated/images/`: generated poster/backdrop assets.
+- `generator/`: TMDB generation pipeline (API client, store, rate limiter, generator).
+- `tmdb.library.json`: source library (entries, sections, custom types).
+- `update-tmdb-data.ts`: CLI entry point for generation/update commands.
+
+## Prerequisites
+
+- Node.js 20+ recommended
+- npm
+- A TMDB credential:
+  - `TMDB_TOKEN` (recommended), or
+  - `TMDB_KEY`
+
+## Environment Setup
+
+Create a `.env` file at the project root:
+
+```env
+TMDB_TOKEN=your_tmdb_read_access_token
+# or
+TMDB_KEY=your_tmdb_api_key
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install
 ```
+
+## Usage
+
+Run the app in development mode:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build locally:
+
+```bash
+npm run preview
+```
+
+Lint the codebase:
+
+```bash
+npm run lint
+```
+
+## TMDB Data Workflow
+
+Regenerate static data and images from `tmdb.library.json`:
+
+```bash
+npm run tmdb:update
+```
+
+Add a title to the library and regenerate:
+
+```bash
+npm run tmdb:add -- --title="Series Name" --section=favorites --mediaType=tv
+```
+
+Add a title without running full regeneration:
+
+```bash
+npm run tmdb:add -- --title="Series Name" --no-update
+```
+
+## Deployment
+
+Deploy the `dist/` build to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## Notes
+
+- Generated content is localized in French (`fr-FR`) in the data workflow.
+- API requests are rate-limited in the generator.
+- Images are optimized during generation to keep the app lightweight.
