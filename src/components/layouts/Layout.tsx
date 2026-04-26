@@ -4,9 +4,9 @@ import type { ReactNode } from 'react'
 
 export function Layout({ children }: { children: ReactNode }) {
     return (
-        <div className="site-shell">
+        <div className="min-vh-100 d-flex flex-column">
             <Header />
-            <main className="site-main">{children}</main>
+            <main className="flex-grow-1">{children}</main>
             <Footer />
         </div>
     )

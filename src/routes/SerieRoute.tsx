@@ -102,7 +102,7 @@ export function SerieRoute() {
                 </Col>
                 <Col lg={8}>
                     <Card className="serie-card h-100 p-4 p-lg-5 pb-3 pb-lg-4">
-                        <div className="serie-tags mb-3">
+                        <div className="d-flex flex-wrap gap-2 align-self-start mb-3">
                             {topTags.map((tag, index) => (
                                 <Badge bg="danger" className="serie-badge serie-tag" key={`${tag}-${index}`}>
                                     {tag}
@@ -116,7 +116,7 @@ export function SerieRoute() {
 
                         {hasPersonalReview ? (
                             <div className="personal-review-card mb-4">
-                                <div className="personal-review-head mb-2">
+                                <div className="d-flex justify-content-between align-items-center gap-3 flex-wrap flex-lg-nowrap mb-2">
                                     <p className="personal-review-title mb-0">Mon avis perso</p>
                                     {normalizedPersonalNote !== null ? (
                                         <span className="personal-review-score">{normalizedPersonalNote.toFixed(1)} / 10</span>
@@ -129,7 +129,7 @@ export function SerieRoute() {
                         ) : null}
 
                         <div className="serie-metadata-block mb-2">
-                            <div className="serie-metadata-head mb-2">
+                            <div className="serie-metadata-head d-flex justify-content-between align-items-center gap-3 mb-2">
                                 <p className="serie-metadata-title mb-0">Informations TMDB</p>
                                 <p className="serie-metadata-score mb-0" aria-label="Note TMDB">{current.voteAverage.toFixed(1)} / 10</p>
                             </div>

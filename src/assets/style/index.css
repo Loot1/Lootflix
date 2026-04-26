@@ -44,16 +44,6 @@ a {
   font-family: 'Manrope', sans-serif;
 }
 
-.site-shell {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.site-main {
-  flex: 1;
-}
-
 .site-header {
   backdrop-filter: blur(9px);
   background: linear-gradient(92deg, rgba(229, 9, 20, 0.95), rgba(177, 8, 16, 0.95));
@@ -109,11 +99,6 @@ a {
   margin-inline: auto;
 }
 
-.header-search-form {
-  margin: 0;
-  position: relative;
-}
-
 .header-search-shell {
   display: flex;
   align-items: center;
@@ -129,15 +114,6 @@ a {
 .header-search-shell:focus-within {
   border-color: rgba(255, 255, 255, 0.78);
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2), 0 12px 26px rgba(90, 8, 14, 0.33);
-}
-
-.header-search-leading {
-  color: rgba(255, 255, 255, 0.92);
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.06rem;
 }
 
 .header-search-input {
@@ -158,13 +134,6 @@ a {
 
 .header-search-input:focus {
   box-shadow: none !important;
-}
-
-.header-search-actions {
-  display: flex;
-  align-items: center;
-  gap: 0.22rem;
-  margin-left: auto;
 }
 
 .header-search-clear {
@@ -232,29 +201,6 @@ a {
   border-radius: 8px;
   object-fit: cover;
   background: rgba(255, 255, 255, 0.12);
-}
-
-.header-search-live-content {
-  display: grid;
-  min-width: 0;
-}
-
-.header-search-live-title {
-  font-weight: 700;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.header-search-live-meta {
-  font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.74);
-}
-
-.header-search-live-empty {
-  color: rgba(255, 255, 255, 0.86);
-  font-size: 0.92rem;
-  padding: 0.46rem 0.62rem;
 }
 
 .hero-zone {
@@ -345,14 +291,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-.serie-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  align-self: flex-start;
-  max-width: 100%;
-}
-
 .serie-tag {
   max-width: 100%;
   white-space: normal;
@@ -377,13 +315,6 @@ a {
   border-radius: 14px;
   border: 1px solid rgba(229, 9, 20, 0.15);
   background: rgba(255, 249, 249, 0.9);
-}
-
-.serie-metadata-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.75rem;
 }
 
 .serie-metadata-grid {
@@ -453,13 +384,6 @@ a {
   font-weight: 700;
 }
 
-.personal-review-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.75rem;
-}
-
 .personal-review-score {
   font-family: 'Barlow', sans-serif;
   background: linear-gradient(90deg, #e50914 0%, #ff6b6b 100%);
@@ -488,7 +412,6 @@ a {
   color: #3f3f3f;
 }
 
-.series-filters-card,
 .series-results-card,
 .film-troll-card {
   border: 1px solid rgba(229, 9, 20, 0.2);
@@ -541,25 +464,6 @@ a {
 
 .series-link:hover {
   text-decoration: underline;
-}
-
-.series-filters-grid .form-label {
-  font-weight: 700;
-  color: #6a4a4a;
-  margin-bottom: 0.35rem;
-}
-
-.series-reset-wrap {
-  padding-top: 0.2rem;
-}
-
-.personal-rating-value {
-  display: inline-block;
-  padding: 0.18rem 0.55rem;
-  border-radius: 999px;
-  background: rgba(229, 9, 20, 0.1);
-  font-weight: 800;
-  color: var(--loot-red-dark);
 }
 
 .film-page {
@@ -642,49 +546,12 @@ a {
   color: var(--loot-white);
 }
 
-.footer-badges {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-shrink: 0;
-  gap: 0.65rem;
-}
-
-.footer-github-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  width: auto;
-  height: auto;
-  min-width: 0;
-  line-height: 1;
-}
-
-.footer-github-link ion-icon {
+.github-link ion-icon {
   font-size: 40px;
-}
-
-.footer-layout {
-  min-height: 0;
 }
 
 .footer-brand-block {
   max-width: 54ch;
-}
-
-.footer-meta-row {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 1rem;
-  width: auto;
-}
-
-.footer-legal-block {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .footer-title {
@@ -706,18 +573,6 @@ a {
 
 .footer-link:hover {
   text-decoration: underline;
-}
-
-.tmdb-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  height: auto;
-  width: auto;
-  min-height: 0;
-  min-width: 0;
-  flex: 0 0 auto;
 }
 
 .tmdb-logo {
@@ -748,10 +603,6 @@ a {
     margin-top: 0.5rem;
   }
 
-  .personal-review-head {
-    flex-wrap: wrap;
-  }
-
   .serie-metadata-grid {
     grid-template-columns: 1fr;
   }
@@ -769,14 +620,6 @@ a {
     height: 40px;
   }
 
-  .footer-layout {
-    min-height: 0;
-  }
-
-  .footer-meta-row {
-    width: 100%;
-    justify-content: space-between;
-  }
 }
 
 @media (max-width: 575px) {
@@ -799,11 +642,7 @@ a {
     height: 60px;
   }
 
-  .footer-meta-row {
-    gap: 0.6rem;
-  }
-
-  .footer-github-link ion-icon {
+  .github-link ion-icon {
     font-size: 34px;
   }
 

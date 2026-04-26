@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import type { FormEvent } from 'react'
+import type { SyntheticEvent } from 'react'
 import { Button, Container, Form, Nav, Navbar } from 'react-bootstrap'
 import logo from '../../assets/images/lootflix.png'
 import { NavLink, useNavigate } from 'react-router'
@@ -17,7 +17,7 @@ export function Header() {
             .trim()
     }
 
-    function onSubmit(event: FormEvent<HTMLFormElement>) {
+    const onSubmit = (event: SyntheticEvent<HTMLFormElement>) => {
         event.preventDefault()
         const query = normalize(search)
         if (!query) return
@@ -70,9 +70,9 @@ export function Header() {
                     <Navbar.Toggle aria-controls="main-nav" />
                     <Navbar.Collapse id="main-nav" className="align-items-lg-center">
                         <div className="header-search-wrap px-lg-3">
-                            <Form onSubmit={onSubmit} className="header-search-form">
+                            <Form onSubmit={onSubmit} className="m-0 position-relative">
                                 <div className="header-search-shell">
-                                    <span className="header-search-leading" aria-hidden="true">
+                                    <span className="text-white d-inline-flex align-items-center justify-content-center lh-1 fs-6" aria-hidden="true">
                                         <ion-icon name="search-outline"></ion-icon>
                                     </span>
                                     <Form.Control
@@ -89,7 +89,7 @@ export function Header() {
                                         }}
                                     />
                                     {search && (
-                                        <div className="header-search-actions">
+                                        <div className="d-flex align-items-center gap-1 ms-auto">
                                             <Button
                                                 type="button"
                                                 className="header-search-clear"
@@ -119,16 +119,16 @@ export function Header() {
                                                         className="header-search-live-thumb"
                                                         loading="lazy"
                                                     />
-                                                    <span className="header-search-live-content">
-                                                        <span className="header-search-live-title">{entry.title}</span>
-                                                        <span className="header-search-live-meta">
+                                                    <span className="d-grid overflow-hidden">
+                                                        <span className="fw-bold text-truncate d-block">{entry.title}</span>
+                                                        <span className="small text-white-50">
                                                             {entry.firstReleaseDate ? entry.firstReleaseDate.slice(0, 4) : 'Date inconnue'}
                                                         </span>
                                                     </span>
                                                 </button>
                                             ))
                                         ) : (
-                                            <p className="header-search-live-empty mb-0">Aucune série trouvée</p>
+                                            <p className="text-light small px-2 py-2 mb-0">Aucune série trouvée</p>
                                         )}
                                     </div>
                                 )}
