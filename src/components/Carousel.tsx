@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef } from 'react'
 
 import '../assets/style/carousel.css'
 import 'slick-carousel/slick/slick.css'
@@ -21,22 +21,11 @@ type CarouselProps = {
     sectionIcon?: string
 }
 
-function iconForSectionName(sectionName: string): string {
-    const normalizedName = sectionName.toLowerCase()
-    if (normalizedName.includes('polici')) return 'shield-checkmark-outline'
-    if (normalizedName.includes('action') || normalizedName.includes('aventure')) return 'flash-outline'
-    if (normalizedName.includes('dram')) return 'film-outline'
-    if (normalizedName.includes('science-fiction')) return 'planet-outline'
-    if (normalizedName.includes('favori')) return 'heart-outline'
-    if (normalizedName.includes('dernier') || normalizedName.includes('visionnage')) return 'time-outline'
-    return 'albums-outline'
-}
-
 export function Carousel({name, items, sectionIcon}: CarouselProps) {
-    const [slider, setSlider] = useState<Slider | null>(null)
-    const sectionIconName = sectionIcon ?? iconForSectionName(name)
+    const sliderRef = useRef<Slider | null>(null)
     const isBackdropCarousel = items.length > 0 && items.every((item) => item.imageMode === 'backdrop')
     const Slick = (Slider as typeof Slider & { default?: typeof Slider }).default ?? Slider
+
     const settings = {
         slidesToShow: isBackdropCarousel ? 4 : 6,
         slidesToScroll: isBackdropCarousel ? 4 : 6,
@@ -89,19 +78,19 @@ export function Carousel({name, items, sectionIcon}: CarouselProps) {
         <section className="carousel-wrapper">
             <div className="d-flex justify-content-between align-items-center gap-3 mb-3 px-1">
                 <h2 className="py-0 my-0 carousel-title">
-                    <ion-icon name={sectionIconName} className="carousel-section-icon" aria-hidden="true"></ion-icon>
+                    <ion-icon name={sectionIcon} className="carousel-section-icon" aria-hidden="true"></ion-icon>
                     <span>{name}</span>
                 </h2>
                 <div className="d-flex gap-2 carousel-arrows-wrap">
-                    <Button variant="outline-danger" size="sm" className="carousel-arrow" onClick={() => slider?.slickPrev()} aria-label="Carrousel precedent">
+                    <Button variant="outline-danger" size="sm" className="carousel-arrow" onClick={() => sliderRef.current?.slickPrev()} aria-label="Carrousel precedent">
                         <ion-icon name="caret-back-outline"></ion-icon>
                     </Button>
-                    <Button variant="outline-danger" size="sm" className="carousel-arrow" onClick={() => slider?.slickNext()} aria-label="Carrousel suivant">
+                    <Button variant="outline-danger" size="sm" className="carousel-arrow" onClick={() => sliderRef.current?.slickNext()} aria-label="Carrousel suivant">
                         <ion-icon name="caret-forward-outline"></ion-icon>
                     </Button>
                 </div>
             </div>
-            <Slick {...settings} ref={(that: Slider | null) => (setSlider(that))} className="carousel-section">
+            <Slick {...settings} ref={sliderRef} className="carousel-section">
                 {
                     items.map((serie) => (
                         <NavLink to={serie.link} className={`carousel-card carousel-card--${serie.imageMode}`} key={serie.link}>
