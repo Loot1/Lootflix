@@ -25,7 +25,7 @@ export type GeneratedMedia = {
     commentaire: string | null
 }
 
-export const generatedAt = "2026-04-25T17:11:27.926Z"
+export const generatedAt = "2026-04-26T12:54:07.462Z"
 
 export const generatedMedia: GeneratedMedia[] = [
     {
@@ -208,7 +208,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 6.858,
+        "voteAverage": 6.857,
         "originCountries": [
             "US"
         ],
@@ -250,7 +250,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Mystère"
         ],
-        "voteAverage": 7.629,
+        "voteAverage": 7.63,
         "originCountries": [
             "US"
         ],
@@ -624,7 +624,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Action & Adventure"
         ],
-        "voteAverage": 6.807,
+        "voteAverage": 6.808,
         "originCountries": [
             "US"
         ],
@@ -712,7 +712,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 6.76,
+        "voteAverage": 6.8,
         "originCountries": [
             "US"
         ],
@@ -796,7 +796,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 6.882,
+        "voteAverage": 6.886,
         "originCountries": [
             "US"
         ],
@@ -837,7 +837,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Drame"
         ],
-        "voteAverage": 7.262,
+        "voteAverage": 7.3,
         "originCountries": [
             "US"
         ],
@@ -958,7 +958,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.908,
+        "voteAverage": 7.909,
         "originCountries": [
             "US"
         ],
@@ -998,7 +998,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.615,
+        "voteAverage": 7.586,
         "originCountries": [
             "US"
         ],
@@ -1245,7 +1245,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.558,
+        "voteAverage": 8.557,
         "originCountries": [
             "GB"
         ],
@@ -1288,7 +1288,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "War & Politics",
             "Crime"
         ],
-        "voteAverage": 7.586,
+        "voteAverage": 7.587,
         "originCountries": [
             "US"
         ],
@@ -1430,8 +1430,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Álvaro Morte",
             "Pedro Alonso",
             "Miguel Herrán",
-            "Jaime Lorente",
             "Esther Acebo",
+            "Jaime Lorente",
             "Najwa Nimri"
         ],
         "numberOfSeasons": 3,
@@ -1459,7 +1459,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 7.554,
+        "voteAverage": 7.553,
         "originCountries": [
             "US"
         ],
@@ -1499,7 +1499,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 6.1,
+        "voteAverage": 6.128,
         "originCountries": [
             "US"
         ],
@@ -1584,7 +1584,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 8.571,
+        "voteAverage": 8.569,
         "originCountries": [
             "US"
         ],
@@ -1626,7 +1626,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 6.979,
+        "voteAverage": 6.985,
         "originCountries": [
             "US"
         ],
@@ -1668,7 +1668,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 7.475,
+        "voteAverage": 7.476,
         "originCountries": [
             "US"
         ],
@@ -1915,7 +1915,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.235,
+        "voteAverage": 7.238,
         "originCountries": [
             "US"
         ],
@@ -1958,7 +1958,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 8.09,
+        "voteAverage": 8.092,
         "originCountries": [
             "US"
         ],
@@ -2161,7 +2161,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 7.187,
+        "voteAverage": 7.191,
         "originCountries": [
             "US"
         ],
@@ -2369,7 +2369,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.216,
+        "voteAverage": 8.2,
         "originCountries": [
             "US"
         ],
@@ -2410,7 +2410,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 7.281,
+        "voteAverage": 7.282,
         "originCountries": [
             "US"
         ],
@@ -2615,7 +2615,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Mystère"
         ],
-        "voteAverage": 7.71,
+        "voteAverage": 7.708,
         "originCountries": [
             "US"
         ],
@@ -2658,7 +2658,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Comédie"
         ],
-        "voteAverage": 8.5,
+        "voteAverage": 8.532,
         "originCountries": [
             "US"
         ],
@@ -2700,7 +2700,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.104,
+        "voteAverage": 7.1,
         "originCountries": [
             "US"
         ],
@@ -2722,7 +2722,9 @@ export const generatedMedia: GeneratedMedia[] = [
         "runtimeMinutes": 42,
         "posterPath": "/generated/images/the-rookie-feds-201992-poster.jpg",
         "backdropPath": "/generated/images/the-rookie-feds-201992-backdrop.jpg",
-        "types": [],
+        "types": [
+            "policier"
+        ],
         "note": null,
         "commentaire": null
     },
@@ -2861,7 +2863,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.518,
+        "voteAverage": 8.517,
         "originCountries": [
             "SE"
         ],
@@ -2957,6 +2959,6 @@ export const generatedSections = {
         "person-of-interest",
         "suits-avocats-sur-mesure",
         "blindspot",
-        "the-rookie-feds"
+        "the-rookie-le-flic-de-los-angeles"
     ]
 }

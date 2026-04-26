@@ -761,7 +761,7 @@
         "policier"
       ],
       "favorite": false,
-      "recentlyWatched": false,
+      "recentlyWatched": true,
       "note": null,
       "commentaire": null
     },
@@ -866,9 +866,11 @@
       "tmdbId": 201992,
       "mediaType": "tv",
       "titleHint": "The Rookie: Feds",
-      "types": [],
+      "types": [
+        "policier"
+      ],
       "favorite": false,
-      "recentlyWatched": true,
+      "recentlyWatched": false,
       "note": null,
       "commentaire": null
     }
