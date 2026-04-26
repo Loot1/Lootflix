@@ -345,6 +345,23 @@ a {
   letter-spacing: 0.03em;
 }
 
+.serie-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-self: flex-start;
+  max-width: 100%;
+}
+
+.serie-tag {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.2;
+  text-align: left;
+  padding: 0.38rem 0.72rem;
+}
+
 .serie-title {
   font-size: clamp(1.9rem, 3vw, 2.8rem);
   line-height: 1.05;
@@ -763,6 +780,11 @@ a {
 }
 
 @media (max-width: 575px) {
+  .serie-tag {
+    font-size: 0.75rem;
+    padding: 0.33rem 0.62rem;
+  }
+
   .header-search-shell {
     padding-right: 0.28rem;
   }

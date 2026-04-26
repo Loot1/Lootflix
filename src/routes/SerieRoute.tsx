@@ -83,6 +83,10 @@ export function SerieRoute() {
             imageMode: 'backdrop' as const
         }))
 
+    const topTags = current.genres.length > 0
+        ? current.genres
+        : ['Genres non renseignés']
+
     const hasPersonalReview = current.note !== null || Boolean(current.commentaire)
     const normalizedPersonalNote = current.note === null ? null : clamp(current.note, 0, 10)
 
@@ -98,9 +102,13 @@ export function SerieRoute() {
                 </Col>
                 <Col lg={8}>
                     <Card className="serie-card h-100 p-4 p-lg-5 pb-3 pb-lg-4">
-                        <Badge bg="danger" className="serie-badge mb-3 align-self-start">
-                            {current.genres.length ? current.genres.join(' • ') : 'Genres non renseignés'}
-                        </Badge>
+                        <div className="serie-tags mb-3">
+                            {topTags.map((tag, index) => (
+                                <Badge bg="danger" className="serie-badge serie-tag" key={`${tag}-${index}`}>
+                                    {tag}
+                                </Badge>
+                            ))}
+                        </div>
                         <h1 className="serie-title mb-3">{current.title}</h1>
                         <p className="serie-description mb-4">
                             {current.overview || 'Aucun synopsis disponible en français pour ce titre.'}
