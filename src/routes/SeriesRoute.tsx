@@ -109,7 +109,7 @@ export function SeriesRoute() {
                 <Badge bg="danger" className="mb-2">Explorateur de visionnage</Badge>
                 <h1 className="series-title">Toutes les séries que j'ai regardées</h1>
                 <p className="series-subtitle mb-0">
-                    Filtre et trie par note TMDB, note perso, saisons, épisodes, date, statut ou nom.
+                    Filtre et trie par note TMDB, note perso, saisons, épisodes, date de sortie, statut ou nom.
                 </p>
             </div>
 
