@@ -71,10 +71,11 @@ function getSlidesConfig(viewportWidth: number, isBackdropCarousel: boolean) {
     return selectSlideValues(BASE_SLIDES, isBackdropCarousel)
 }
 
+const Slick = (Slider as typeof Slider & { default?: typeof Slider }).default ?? Slider
+
 export function Carousel({name, items, sectionIcon}: CarouselProps) {
     const sliderRef = useRef<Slider | null>(null)
     const isBackdropCarousel = items.length > 0 && items.every((item) => item.imageMode === 'backdrop')
-    const Slick = (Slider as typeof Slider & { default?: typeof Slider }).default ?? Slider
     const slidesConfig = useMemo(() => getSlidesConfig(getViewportWidth(), isBackdropCarousel), [isBackdropCarousel])
     const responsiveSettings = useMemo(() => (
         SLIDE_RULES.map((rule) => ({
