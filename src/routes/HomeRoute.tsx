@@ -6,8 +6,8 @@ function selectFromType(type: string, limit = 12) {
     return mediaCatalog
         .filter((media) => media.mediaType === 'tv')
         .filter((media) => media.types.includes(type))
-        .slice(0, limit)
         .filter((media) => media.posterPath !== null)
+        .slice(0, limit)
         .map((media) => ({
             name: media.title,
             link: `/serie/${media.slug}`,
