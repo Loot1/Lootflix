@@ -1,14 +1,17 @@
 import { generatedAt, generatedMedia, generatedSections } from './generated/tmdb-media.generated'
+import type { CarouselItem } from './types/carousel'
 
-type CarouselItem = {
-    name: string
-    link: string
-    image: string
-    imageMode: 'poster' | 'backdrop'
+function compact<T>(values: Array<T | null>): T[] {
+    return values.filter((value): value is T => value !== null)
 }
 
+export const lastGeneratedAt = generatedAt
+export const mediaCatalog = generatedMedia
+
+export const mediaBySlug = new Map(generatedMedia.map((entry) => [entry.slug, entry]))
+
 function toCarouselItem(slug: string): CarouselItem | null {
-    const media = generatedMedia.find((entry) => entry.slug === slug)
+    const media = mediaBySlug.get(slug)
     if (!media) {
         return null
     }
@@ -20,15 +23,6 @@ function toCarouselItem(slug: string): CarouselItem | null {
         imageMode: 'poster'
     }
 }
-
-function compact<T>(values: Array<T | null>): T[] {
-    return values.filter((value): value is T => value !== null)
-}
-
-export const lastGeneratedAt = generatedAt
-export const mediaCatalog = generatedMedia
-
-export const mediaBySlug = new Map(generatedMedia.map((entry) => [entry.slug, entry]))
 
 export const favoriteItems = compact(generatedSections.favorites.map(toCarouselItem))
 export const recentItems = compact(generatedSections.watchHistory.map(toCarouselItem))
