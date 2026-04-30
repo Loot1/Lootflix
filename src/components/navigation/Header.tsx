@@ -5,17 +5,17 @@ import logo from '../../assets/images/lootflix.png'
 import { NavLink, useNavigate } from 'react-router'
 import { mediaCatalog } from '../../data'
 
+function normalize(value: string): string {
+    return value
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim()
+}
+
 export function Header() {
     const navigate = useNavigate()
     const [search, setSearch] = useState('')
-
-    function normalize(value: string): string {
-        return value
-            .normalize('NFD')
-            .replace(/[\u0300-\u036f]/g, '')
-            .toLowerCase()
-            .trim()
-    }
 
     const onSubmit = (event: SyntheticEvent<HTMLFormElement>) => {
         event.preventDefault()
