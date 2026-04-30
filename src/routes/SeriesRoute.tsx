@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Badge, Button, Card, Container, Table } from 'react-bootstrap'
 import { NavLink } from 'react-router'
 import { mediaCatalog } from '../data'
+import { toFrenchStatus } from '../utils/translations'
 
 type SortKey = 'name' | 'tmdb' | 'personal' | 'seasons' | 'episodes' | 'date' | 'status'
 
@@ -13,22 +14,6 @@ function toDateValue(value: string | null): number {
     if (!value) return 0
     const timestamp = Date.parse(value)
     return Number.isNaN(timestamp) ? 0 : timestamp
-}
-
-function toFrenchStatus(status: string | null): string {
-    if (!status) return 'Inconnu'
-    const translations: Record<string, string> = {
-        'Returning Series': 'En cours',
-        'Ended': 'Terminée',
-        'Canceled': 'Annulée',
-        'In Production': 'En production',
-        'Planned': 'Planifiée',
-        'Pilot': 'Pilote',
-        'Released': 'Sorti',
-        'Post Production': 'Post-production',
-        'Rumored': 'Rumeur'
-    }
-    return translations[status] ?? status
 }
 
 function compareBySortKey(left: (typeof mediaCatalog)[number], right: (typeof mediaCatalog)[number], sortKey: SortKey): number {

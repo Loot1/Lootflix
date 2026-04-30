@@ -2,27 +2,10 @@ import { NavLink, useParams } from 'react-router'
 import { mediaBySlug, mediaCatalog } from '../data.js'
 import { Badge, Card, Col, Container, Row } from 'react-bootstrap'
 import { Carousel } from '../components'
+import { toFrenchStatus } from '../utils/translations'
 
 function clamp(value: number, min: number, max: number) {
     return Math.max(min, Math.min(max, value))
-}
-
-function toFrenchStatus(status: string | null): string {
-    if (!status) return 'Inconnu'
-
-    const translations: Record<string, string> = {
-        'Returning Series': 'En cours',
-        Ended: 'Terminée',
-        Canceled: 'Annulée',
-        'In Production': 'En production',
-        Planned: 'Planifiée',
-        Pilot: 'Pilote',
-        Released: 'Sorti',
-        'Post Production': 'Post-production',
-        Rumored: 'Rumeur'
-    }
-
-    return translations[status] ?? status
 }
 
 export function SerieRoute() {
