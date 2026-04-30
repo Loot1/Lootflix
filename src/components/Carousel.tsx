@@ -7,13 +7,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
 import { NavLink } from 'react-router'
 import { Button } from 'react-bootstrap'
-
-type CarouselItem = {
-    name: string
-    link: string
-    image: string
-    imageMode: 'poster' | 'backdrop'
-}
+import type { CarouselItem } from '../types/carousel'
 
 type CarouselProps = {
     name: string
