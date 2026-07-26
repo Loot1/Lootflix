@@ -25,7 +25,7 @@ export type GeneratedMedia = {
     commentaire: string | null
 }
 
-export const generatedAt = "2026-04-26T12:54:07.462Z"
+export const generatedAt = "2026-07-26T11:54:18.706Z"
 
 export const generatedMedia: GeneratedMedia[] = [
     {
@@ -34,16 +34,16 @@ export const generatedMedia: GeneratedMedia[] = [
         "slug": "9-1-1",
         "title": "9-1-1",
         "originalTitle": "9-1-1",
-        "overview": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies...",
+        "overview": "Du service d'appels d'urgences 911 aux pompiers, secouristes ou policiers, tous ces intervenants sont constamment sous pression, confrontés quotidiennement à des situations stupéfiantes, effrayantes, et parfois même choquantes. S'ils ont pour mission de voler au secours des personnes en danger, ces héros de l'ombre doivent aussi trouver le temps de résoudre les problèmes de leurs propres vies…",
         "firstReleaseDate": "2018-01-03",
-        "lastReleaseDate": "2026-04-02",
+        "lastReleaseDate": "2026-05-07",
         "status": "Returning Series",
         "genres": [
             "Drame",
             "Crime",
             "Action & Adventure"
         ],
-        "voteAverage": 8.21,
+        "voteAverage": 8.219,
         "originCountries": [
             "US"
         ],
@@ -86,7 +86,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 6.529,
+        "voteAverage": 6.523,
         "originCountries": [
             "US"
         ],
@@ -127,7 +127,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 7.526,
+        "voteAverage": 7.52,
         "originCountries": [
             "US"
         ],
@@ -166,7 +166,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 6.832,
+        "voteAverage": 6.835,
         "originCountries": [
             "US"
         ],
@@ -175,13 +175,13 @@ export const generatedMedia: GeneratedMedia[] = [
         ],
         "topCast": [
             "Stephen Amell",
-            "Rick Gonzalez",
-            "Katherine McNamara",
             "David Ramsey",
-            "Katie Cassidy",
+            "Rick Gonzalez",
             "Juliana Harkavy",
+            "Katherine McNamara",
+            "Ben Lewis",
             "Joseph David-Jones",
-            "Ben Lewis"
+            "Katie Cassidy"
         ],
         "numberOfSeasons": 8,
         "numberOfEpisodes": 170,
@@ -208,7 +208,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 6.857,
+        "voteAverage": 6.847,
         "originCountries": [
             "US"
         ],
@@ -250,7 +250,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Mystère"
         ],
-        "voteAverage": 7.63,
+        "voteAverage": 7.632,
         "originCountries": [
             "US"
         ],
@@ -291,7 +291,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.377,
+        "voteAverage": 7.375,
         "originCountries": [
             "US"
         ],
@@ -331,7 +331,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 8.189,
+        "voteAverage": 8.184,
         "originCountries": [
             "US"
         ],
@@ -372,7 +372,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Comédie"
         ],
-        "voteAverage": 6.6,
+        "voteAverage": 6.629,
         "originCountries": [
             "FR"
         ],
@@ -450,12 +450,12 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "Chicago Fire",
         "overview": "La série se déroule de nos jours à Chicago, aux États-Unis et suit les membres d'une caserne des sapeurs-pompiers de la ville : le Chicago Fire Department.",
         "firstReleaseDate": "2012-10-10",
-        "lastReleaseDate": "2026-03-18",
+        "lastReleaseDate": "2026-05-13",
         "status": "Returning Series",
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.393,
+        "voteAverage": 8.408,
         "originCountries": [
             "US"
         ],
@@ -472,8 +472,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Jocelyn Hudon",
             "Brandon Larracuente"
         ],
-        "numberOfSeasons": 14,
-        "numberOfEpisodes": 291,
+        "numberOfSeasons": 15,
+        "numberOfEpisodes": 296,
         "runtimeMinutes": 42,
         "posterPath": "/generated/images/chicago-fire-44006-poster.jpg",
         "backdropPath": "/generated/images/chicago-fire-44006-backdrop.jpg",
@@ -491,12 +491,12 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "Chicago Med",
         "overview": "Le quotidien mouvementé du personnel d'un des plus importants hôpitaux de Chicago. Leur mission : sauver des vies, en se confrontant aux cas médicaux les plus critiques. Seuls leur courage et leur compassion leur permet au quotidien de faire face aux challenges parfois insurmontables de la médecine, ainsi qu'aux dilemmes éthiques propres à leur noble discipline.",
         "firstReleaseDate": "2015-11-17",
-        "lastReleaseDate": "2026-04-08",
+        "lastReleaseDate": "2026-05-13",
         "status": "Returning Series",
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.278,
+        "voteAverage": 8.266,
         "originCountries": [
             "US"
         ],
@@ -512,8 +512,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "S. Epatha Merkerson",
             "Oliver Platt"
         ],
-        "numberOfSeasons": 11,
-        "numberOfEpisodes": 219,
+        "numberOfSeasons": 12,
+        "numberOfEpisodes": 220,
         "runtimeMinutes": null,
         "posterPath": "/generated/images/chicago-med-62650-poster.jpg",
         "backdropPath": "/generated/images/chicago-med-62650-backdrop.jpg",
@@ -532,13 +532,13 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "Chicago P.D.",
         "overview": "Des officiers en uniforme qui patrouillent et combattent le crime dans la rue, aux membres de l'unité des renseignements affectés à des affaires majeures (crime organisé, trafic de drogue, homicides...), toutes les recrues du poste de police du district 21 de Chicago risquent quotidiennement leurs vies. Ces énormes responsabilités dépassent souvent le simple cadre professionnel et entâchent la sphère privée de ces hommes et de ces femmes d'exception.\n\nSpin-off de Chicago Fire centré sur une brigade de police de la ville.",
         "firstReleaseDate": "2014-01-08",
-        "lastReleaseDate": "2026-04-08",
+        "lastReleaseDate": "2026-05-13",
         "status": "Returning Series",
         "genres": [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 8.411,
+        "voteAverage": 8.425,
         "originCountries": [
             "US"
         ],
@@ -554,8 +554,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Arienne Mandi",
             "Amy Morton"
         ],
-        "numberOfSeasons": 13,
-        "numberOfEpisodes": 264,
+        "numberOfSeasons": 14,
+        "numberOfEpisodes": 265,
         "runtimeMinutes": null,
         "posterPath": "/generated/images/chicago-police-department-58841-poster.jpg",
         "backdropPath": "/generated/images/chicago-police-department-58841-backdrop.jpg",
@@ -581,7 +581,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 7.719,
+        "voteAverage": 7.707,
         "originCountries": [
             "US"
         ],
@@ -591,11 +591,11 @@ export const generatedMedia: GeneratedMedia[] = [
         "topCast": [
             "Zachary Levi",
             "Yvonne Strahovski",
-            "Joshua Gomez",
             "Adam Baldwin",
+            "Joshua Gomez",
+            "Sarah Lancaster",
             "Vik Sahay",
             "Scott Krinsky",
-            "Sarah Lancaster",
             "Mark Christopher Lawrence"
         ],
         "numberOfSeasons": 5,
@@ -615,22 +615,20 @@ export const generatedMedia: GeneratedMedia[] = [
         "slug": "citadel",
         "title": "Citadel",
         "originalTitle": "Citadel",
-        "overview": "Il y a huit ans, Citadel, agence internationale indépendante d'espionnage, est détruite par l'organisation Manticore. Les agents d'élite Mason Kane (Richard Madden) et Nadia Sinh (Priyanka Chopra Jonas) frôlent la mort et leur mémoire est effacée. Huit ans après, l'ancien collègue de Mason, Bernard Orlick (Stanley Tucci) l'appelle à l'aide pour empêcher Manticore d'imposer un nouvel ordre mondial.",
+        "overview": "Il y a huit ans, Citadel, agence internationale indépendante d'espionnage, est détruite par l'organisation Manticore. Les agents d'élite Mason Kane et Nadia Sinh frôlent la mort et leur mémoire est effacée. Huit ans après, l'ancien collègue de Mason, Bernard Orlick l'appelle à l'aide pour empêcher Manticore d'imposer un nouvel ordre mondial.",
         "firstReleaseDate": "2023-04-27",
-        "lastReleaseDate": "2023-05-25",
+        "lastReleaseDate": "2026-05-06",
         "status": "Returning Series",
         "genres": [
             "Drame",
             "Crime",
             "Action & Adventure"
         ],
-        "voteAverage": 6.808,
+        "voteAverage": 6.9,
         "originCountries": [
             "US"
         ],
         "spokenLanguages": [
-            "Español",
-            "ქართული",
             "English"
         ],
         "topCast": [
@@ -639,7 +637,9 @@ export const generatedMedia: GeneratedMedia[] = [
             "Ashleigh Cummings",
             "Roland Møller",
             "Lesley Manville",
-            "Stanley Tucci"
+            "Stanley Tucci",
+            "Gabriel Leone",
+            "Jack Reynor"
         ],
         "numberOfSeasons": 2,
         "numberOfEpisodes": 13,
@@ -666,7 +666,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 6.8,
+        "voteAverage": 6.7,
         "originCountries": [
             "IT",
             "US"
@@ -712,20 +712,20 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 6.8,
+        "voteAverage": 6.726,
         "originCountries": [
             "US"
         ],
         "spokenLanguages": [
-            "English",
-            "हिन्दी"
+            "हिन्दी",
+            "English"
         ],
         "topCast": [
             "Samantha Ruth Prabhu",
             "Varun Dhawan",
             "Kay Kay Menon",
             "Kashvi Majmundar",
-            "Simran",
+            "சிம்ரன்",
             "Saqib Saleem",
             "Sikandar Kher",
             "Shivankit Singh Parihar"
@@ -755,7 +755,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Drame"
         ],
-        "voteAverage": 6.853,
+        "voteAverage": 6.859,
         "originCountries": [
             "US"
         ],
@@ -796,7 +796,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 6.886,
+        "voteAverage": 6.918,
         "originCountries": [
             "US"
         ],
@@ -837,7 +837,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Drame"
         ],
-        "voteAverage": 7.3,
+        "voteAverage": 7.255,
         "originCountries": [
             "US"
         ],
@@ -920,7 +920,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 7.6,
+        "voteAverage": 7.614,
         "originCountries": [
             "GB"
         ],
@@ -944,6 +944,41 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": "Un classique qui se bonifie avec le temps, j'apprécie en particulier les nouvelles saisons qui ont été réalisées, elles ajoutent du modernisme sans casser le charme de cette série iconique."
     },
     {
+        "tmdbId": 236429,
+        "mediaType": "tv",
+        "slug": "en-service",
+        "title": "En Service",
+        "originalTitle": "On Call",
+        "overview": "À travers la formatrice Traci Harmon et la jeune recrue Alex Diaz, cette série met en lumière l'impact de ce métier sur la condition humaine. Harmon est inspirée par un jeune des rues, alors que Diaz apprend qu'être flic ne se résume pas à tout voir en noir ou blanc et qu'il faut composer avec des nuances de gris.",
+        "firstReleaseDate": "2025-01-09",
+        "lastReleaseDate": "2025-01-09",
+        "status": "Canceled",
+        "genres": [
+            "Crime",
+            "Drame",
+            "Action & Adventure"
+        ],
+        "voteAverage": 7.387,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English"
+        ],
+        "topCast": [
+            "Troian Bellisario",
+            "Brandon Larracuente"
+        ],
+        "numberOfSeasons": 1,
+        "numberOfEpisodes": 8,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/en-service-236429-poster.jpg",
+        "backdropPath": "/generated/images/en-service-236429-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 80748,
         "mediaType": "tv",
         "slug": "fbi",
@@ -951,14 +986,14 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "FBI",
         "overview": "Les agents spéciaux de la branche new-yorkaise du FBI usent de tous leurs talents et leur expertise pour assurer la protection de la ville et du pays. Les membres de cette unité d'élite combattent aussi bien le terrorisme, le crime organisé que le contre-espionnage.",
         "firstReleaseDate": "2018-09-25",
-        "lastReleaseDate": "2026-04-20",
+        "lastReleaseDate": "2026-05-18",
         "status": "Returning Series",
         "genres": [
             "Crime",
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.909,
+        "voteAverage": 7.9,
         "originCountries": [
             "US"
         ],
@@ -973,7 +1008,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Alana de la Garza",
             "Juliana Aidén Martinez"
         ],
-        "numberOfSeasons": 8,
+        "numberOfSeasons": 9,
         "numberOfEpisodes": 157,
         "runtimeMinutes": null,
         "posterPath": "/generated/images/fbi-80748-poster.jpg",
@@ -998,7 +1033,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.586,
+        "voteAverage": 7.6,
         "originCountries": [
             "US"
         ],
@@ -1037,7 +1072,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 7.759,
+        "voteAverage": 7.752,
         "originCountries": [
             "US"
         ],
@@ -1078,7 +1113,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.3,
+        "voteAverage": 7.316,
         "originCountries": [
             "CA"
         ],
@@ -1120,7 +1155,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Crime"
         ],
-        "voteAverage": 7.162,
+        "voteAverage": 7.243,
         "originCountries": [
             "DE",
             "US",
@@ -1159,7 +1194,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.5,
+        "voteAverage": 8.455,
         "originCountries": [
             "US"
         ],
@@ -1188,6 +1223,42 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": null
     },
     {
+        "tmdbId": 54155,
+        "mediaType": "tv",
+        "slug": "hanna",
+        "title": "Hanna",
+        "originalTitle": "Hanna",
+        "overview": "À la fois un thriller percutant et un drame sur l'entrée dans l'âge adulte, Hanna suit le périple d'une extraordinaire jeune fille élevée dans la forêt qui tente d'échapper à la traque incessante d'un agent de la CIA en mission officieuse et essaie de découvrir la vérité derrière son identité.",
+        "firstReleaseDate": "2019-03-28",
+        "lastReleaseDate": "2021-11-23",
+        "status": "Ended",
+        "genres": [
+            "Action & Adventure",
+            "Drame"
+        ],
+        "voteAverage": 7.438,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English"
+        ],
+        "topCast": [
+            "Esmé Creed-Miles",
+            "Mireille Enos",
+            "Dermot Mulroney",
+            "Ray Liotta"
+        ],
+        "numberOfSeasons": 3,
+        "numberOfEpisodes": 22,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/hanna-54155-poster.jpg",
+        "backdropPath": "/generated/images/hanna-54155-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 32798,
         "mediaType": "tv",
         "slug": "hawaii-5-0",
@@ -1202,14 +1273,14 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.736,
+        "voteAverage": 7.731,
         "originCountries": [
             "US"
         ],
         "spokenLanguages": [
+            "Português",
             "Español",
-            "English",
-            "Português"
+            "English"
         ],
         "topCast": [
             "Alex O'Loughlin",
@@ -1238,14 +1309,14 @@ export const generatedMedia: GeneratedMedia[] = [
         "slug": "heartstopper",
         "title": "Heartstopper",
         "originalTitle": "Heartstopper",
-        "overview": "Partageant une passion commune pour le rugby, les deux adolescents Charlie et Nick deviennent vite amis. Le premier tombe bientôt amoureux de son camarade, même s’il pense qu’il n’a aucune chance.\n\nAdaptation du comic éponyme d'Alice Oseman.",
+        "overview": "Dans cette série initiatique sur fond d'histoires d'amour et d'études, les ados Charlie et Nick découvrent une facette inattendue de leur amitié improbable.",
         "firstReleaseDate": "2022-04-22",
         "lastReleaseDate": "2024-10-03",
         "status": "Canceled",
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.557,
+        "voteAverage": 8.6,
         "originCountries": [
             "GB"
         ],
@@ -1264,7 +1335,7 @@ export const generatedMedia: GeneratedMedia[] = [
         ],
         "numberOfSeasons": 3,
         "numberOfEpisodes": 24,
-        "runtimeMinutes": 30,
+        "runtimeMinutes": null,
         "posterPath": "/generated/images/heartstopper-124834-poster.jpg",
         "backdropPath": "/generated/images/heartstopper-124834-backdrop.jpg",
         "types": [
@@ -1288,7 +1359,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "War & Politics",
             "Crime"
         ],
-        "voteAverage": 7.587,
+        "voteAverage": 7.589,
         "originCountries": [
             "US"
         ],
@@ -1329,7 +1400,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.674,
+        "voteAverage": 7.68,
         "originCountries": [
             "US"
         ],
@@ -1417,7 +1488,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 8.229,
+        "voteAverage": 8.2,
         "originCountries": [
             "ES"
         ],
@@ -1430,8 +1501,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Álvaro Morte",
             "Pedro Alonso",
             "Miguel Herrán",
-            "Esther Acebo",
             "Jaime Lorente",
+            "Esther Acebo",
             "Najwa Nimri"
         ],
         "numberOfSeasons": 3,
@@ -1449,7 +1520,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "tmdbId": 203857,
         "mediaType": "tv",
         "slug": "la-diplomate",
-        "title": "La Diplomate",
+        "title": "La diplomate",
         "originalTitle": "The Diplomat",
         "overview": "Pendant une crise internationale, une diplomate américaine jongle entre son poste d'ambassadrice au Royaume-Uni et son mariage sous tension avec une star de la politique.",
         "firstReleaseDate": "2023-04-20",
@@ -1459,7 +1530,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 7.553,
+        "voteAverage": 7.566,
         "originCountries": [
             "US"
         ],
@@ -1499,7 +1570,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 6.128,
+        "voteAverage": 6.134,
         "originCountries": [
             "US"
         ],
@@ -1539,13 +1610,12 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 7.962,
+        "voteAverage": 7.996,
         "originCountries": [
             "US"
         ],
         "spokenLanguages": [
-            "English",
-            "日本語"
+            "English"
         ],
         "topCast": [
             "Zoe Saldaña",
@@ -1557,8 +1627,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Genesis Rodriguez",
             "Michael Kelly"
         ],
-        "numberOfSeasons": 2,
-        "numberOfEpisodes": 16,
+        "numberOfSeasons": 3,
+        "numberOfEpisodes": 24,
         "runtimeMinutes": null,
         "posterPath": "/generated/images/lioness-113962-poster.jpg",
         "backdropPath": "/generated/images/lioness-113962-backdrop.jpg",
@@ -1584,7 +1654,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 8.569,
+        "voteAverage": 8.567,
         "originCountries": [
             "US"
         ],
@@ -1626,7 +1696,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 6.985,
+        "voteAverage": 6.994,
         "originCountries": [
             "US"
         ],
@@ -1668,7 +1738,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 7.476,
+        "voteAverage": 7.5,
         "originCountries": [
             "US"
         ],
@@ -1710,7 +1780,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Comédie"
         ],
-        "voteAverage": 6.3,
+        "voteAverage": 6.273,
         "originCountries": [
             "US"
         ],
@@ -1753,7 +1823,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 6.528,
+        "voteAverage": 6.568,
         "originCountries": [
             "US"
         ],
@@ -1779,18 +1849,18 @@ export const generatedMedia: GeneratedMedia[] = [
         "tmdbId": 4614,
         "mediaType": "tv",
         "slug": "ncis-enquetes-speciales",
-        "title": "NCIS : Enquêtes spéciales",
+        "title": "NCIS : Enquêtes Spéciales",
         "originalTitle": "NCIS",
-        "overview": "Le NCIS (Naval Criminal Investigative Service) est une agence fédérale civile rattachée à la Navy et aux Marines. Basée à Washington, elle enquête de façon indépendante sur les crimes liés aux forces navales américaines, et mène aussi des missions de contre-espionnage, de lutte antiterroriste et antidrogue. La MCRT (Major Case Response Team), dirigée d’abord par l’agent spécial Leroy Jethro Gibbs (saisons 1-19), puis par Alden Parker (depuis la saison 19), en est l’équipe principale d’enquête.",
+        "overview": "L'agent spécial Leroy Jethro Gibbs, de la Section criminelle de la Gendarmerie maritime, dirige un groupe de personnes aux personnalités colorées qui enquête sur les crimes. Ceux-ci vont du meurtre et de l'espionnage au terrorisme, et sont reliés de manière assurée au personnel du corps de la Marine. L'équipe est composée d'Anthony DiNozzo, un ex-inspecteur plein d'esprit spécialisé en homicides, d'Abby Sciuto, l'excentrique spécialiste d'enquête en technique de laboratoire, de Timothy McGee, brillant lorsqu'inquiet, et de Ziva David, ex-officier de liaison du Mossad. Le Dr Donald \"Ducky\" Mallard contribue à la résolution de cas grâce à sa grande expérience dans le domaine de la médecine légale.",
         "firstReleaseDate": "2003-09-23",
-        "lastReleaseDate": "2026-04-07",
+        "lastReleaseDate": "2026-05-12",
         "status": "Returning Series",
         "genres": [
             "Crime",
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.613,
+        "voteAverage": 7.61,
         "originCountries": [
             "US"
         ],
@@ -1806,8 +1876,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Diona Reasonover",
             "Gary Cole"
         ],
-        "numberOfSeasons": 23,
-        "numberOfEpisodes": 507,
+        "numberOfSeasons": 24,
+        "numberOfEpisodes": 508,
         "runtimeMinutes": null,
         "posterPath": "/generated/images/ncis-enquetes-speciales-4614-poster.jpg",
         "backdropPath": "/generated/images/ncis-enquetes-speciales-4614-backdrop.jpg",
@@ -1831,7 +1901,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.716,
+        "voteAverage": 7.705,
         "originCountries": [
             "US"
         ],
@@ -1873,7 +1943,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Mystère"
         ],
-        "voteAverage": 7.534,
+        "voteAverage": 7.528,
         "originCountries": [
             "US"
         ],
@@ -1915,7 +1985,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.238,
+        "voteAverage": 7.3,
         "originCountries": [
             "US"
         ],
@@ -1943,12 +2013,52 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": "Si on s'arrête aux 3 premières saisons, la série est un chef d'oeuvre et aurait dû s'arrêter là. La saison 4 brise totalement les attaches que l'on a avec les personnages et entre eux. Je comprends l'idée et la nouvelle intrigue n'est pas incohérente mais un point d'équilibre aurait dû être trouvé. L'actrice principale est dans tous les cas formidable, j'ai d'ailleurs beaucoup apprécié la revoir dans Designated Survivor."
     },
     {
+        "tmdbId": 245927,
+        "mediaType": "tv",
+        "slug": "paradise",
+        "title": "Paradise",
+        "originalTitle": "Paradise",
+        "overview": "Une communauté paisible est habitée par certaines des personnalités les plus en vue de la planète. Mais leur tranquillité explose lorsqu'un meurtre choquant est commis et qu'une enquête aux enjeux considérables se met en place.",
+        "firstReleaseDate": "2025-01-26",
+        "lastReleaseDate": "2026-03-30",
+        "status": "Returning Series",
+        "genres": [
+            "Crime",
+            "Drame"
+        ],
+        "voteAverage": 7.508,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English"
+        ],
+        "topCast": [
+            "Sterling K. Brown",
+            "Julianne Nicholson",
+            "Sarah Shahi",
+            "Nicole Brydon Bloom",
+            "Krys Marshall",
+            "Enuka Okuma",
+            "Aliyah Mastin",
+            "Percy Daggs IV"
+        ],
+        "numberOfSeasons": 2,
+        "numberOfEpisodes": 16,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/paradise-245927-poster.jpg",
+        "backdropPath": "/generated/images/paradise-245927-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 1411,
         "mediaType": "tv",
         "slug": "person-of-interest",
         "title": "Person of Interest",
         "originalTitle": "Person of Interest",
-        "overview": "Un agent paramilitaire de la CIA, présumé mort, est recruté par un millionnaire reclu pour travailler sur un projet top-secret : prévenir le crime avant qu'il ne se produise ! Un ingénieux programme élaboré par Finch identifie chaque jour des personnes qui vont être impliquées dans un crime. Victime ou coupable ? Reese va devoir mener l'enquête pour découvrir qui est en danger et empêcher qu'un nouveau meurtre soit commis...",
+        "overview": "Un agent paramilitaire de la CIA, présumé mort, est recruté par un millionnaire reclu pour travailler sur un projet top-secret : prévenir le crime avant qu'il ne se produise ! Un ingénieux programme élaboré par Finch identifie chaque jour des personnes qui vont être impliquées dans un crime. Victime ou coupable ? Reese va devoir mener l'enquête pour découvrir qui est en danger et empêcher qu'un nouveau meurtre soit commis…",
         "firstReleaseDate": "2011-09-22",
         "lastReleaseDate": "2016-06-21",
         "status": "Ended",
@@ -1958,7 +2068,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 8.092,
+        "voteAverage": 8.091,
         "originCountries": [
             "US"
         ],
@@ -1998,7 +2108,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Mystère"
         ],
-        "voteAverage": 6.53,
+        "voteAverage": 6.537,
         "originCountries": [
             "US"
         ],
@@ -2038,7 +2148,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 6.483,
+        "voteAverage": 6.511,
         "originCountries": [
             "US"
         ],
@@ -2078,7 +2188,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 8.043,
+        "voteAverage": 8.042,
         "originCountries": [
             "US"
         ],
@@ -2119,7 +2229,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Drame"
         ],
-        "voteAverage": 7.008,
+        "voteAverage": 6.992,
         "originCountries": [
             "CA"
         ],
@@ -2161,7 +2271,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 7.191,
+        "voteAverage": 7.207,
         "originCountries": [
             "US"
         ],
@@ -2204,7 +2314,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Crime"
         ],
-        "voteAverage": 8.203,
+        "voteAverage": 8.202,
         "originCountries": [
             "US"
         ],
@@ -2245,7 +2355,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 8.208,
+        "voteAverage": 8.199,
         "originCountries": [
             "GB"
         ],
@@ -2281,18 +2391,18 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "SkyMed",
         "overview": "Les exploits et les coups durs d'une équipe d'infirmières et de pilotes d’ambulances aériennes dans le Nord du Canada. Au fil de leurs multiples missions de sauvetage intenses, ces jeunes intervenants doivent compter les uns sur les autres pour survivre à 20000 pieds dans les airs.",
         "firstReleaseDate": "2022-07-10",
-        "lastReleaseDate": "2025-03-02",
+        "lastReleaseDate": "2026-05-21",
         "status": "Returning Series",
         "genres": [
             "Drame"
         ],
-        "voteAverage": 6.88,
+        "voteAverage": 6.7,
         "originCountries": [
             "CA"
         ],
         "spokenLanguages": [
-            "English",
-            "Español"
+            "Español",
+            "English"
         ],
         "topCast": [
             "Natasha Calis",
@@ -2305,7 +2415,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Rebecca Kwan"
         ],
         "numberOfSeasons": 4,
-        "numberOfEpisodes": 28,
+        "numberOfEpisodes": 35,
         "runtimeMinutes": 44,
         "posterPath": "/generated/images/skymed-133908-poster.jpg",
         "backdropPath": "/generated/images/skymed-133908-backdrop.jpg",
@@ -2328,7 +2438,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Comédie"
         ],
-        "voteAverage": 6.3,
+        "voteAverage": 6.393,
         "originCountries": [
             "FR"
         ],
@@ -2369,7 +2479,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.2,
+        "voteAverage": 8.221,
         "originCountries": [
             "US"
         ],
@@ -2410,7 +2520,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 7.282,
+        "voteAverage": 7.274,
         "originCountries": [
             "US"
         ],
@@ -2452,7 +2562,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 8.049,
+        "voteAverage": 8.061,
         "originCountries": [
             "US"
         ],
@@ -2492,7 +2602,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Comédie"
         ],
-        "voteAverage": 6.511,
+        "voteAverage": 6.494,
         "originCountries": [
             "US"
         ],
@@ -2517,6 +2627,89 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": "Comme beaucoup je pense, je connais les films Taken et je n'attendais pas grand chose de la série, mais j'ai tout de même été séduit. Ce n'est pas un classique, mais c'est très sympa tout de même!"
     },
     {
+        "tmdbId": 219971,
+        "mediaType": "tv",
+        "slug": "the-agency",
+        "title": "The Agency",
+        "originalTitle": "The Agency",
+        "overview": "Martian, un agent de la CIA, de retour à la base de Londres, peine à laisser sa dernière couverture derrière lui. Quand la femme qu'il a aimé refait surface, la romance renaît. Une relation contre les règles, qui met sa carrière et sa véritable identité en danger. Partagé entre le coeur et la raison, il se retrouve propulsé dans un jeu dangereux, sur fond d’intrigues internationales et d’espionnage.",
+        "firstReleaseDate": "2024-12-01",
+        "lastReleaseDate": "2026-06-21",
+        "status": "Returning Series",
+        "genres": [
+            "Drame",
+            "Mystère"
+        ],
+        "voteAverage": 7.169,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English",
+            "Pусский",
+            "العربية",
+            "فارسی"
+        ],
+        "topCast": [
+            "Michael Fassbender",
+            "Jeffrey Wright",
+            "Jodie Turner-Smith",
+            "Katherine Waterston",
+            "Harriet Sansom Harris",
+            "John Magaro",
+            "Saura Lightfoot-Leon",
+            "India Fowler"
+        ],
+        "numberOfSeasons": 2,
+        "numberOfEpisodes": 20,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/the-agency-219971-poster.jpg",
+        "backdropPath": "/generated/images/the-agency-219971-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
+        "tmdbId": 46533,
+        "mediaType": "tv",
+        "slug": "the-americans",
+        "title": "The Americans",
+        "originalTitle": "The Americans",
+        "overview": "Dans les années 80, Phillip et Elizabeth Jennings s'installent près de Washington. Ils travaillent à la solde du KGB et sont en réalité des agents dormants russes.",
+        "firstReleaseDate": "2013-01-30",
+        "lastReleaseDate": "2018-05-30",
+        "status": "Ended",
+        "genres": [
+            "Crime",
+            "Drame"
+        ],
+        "voteAverage": 7.877,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "Pусский",
+            "English"
+        ],
+        "topCast": [
+            "Keri Russell",
+            "Matthew Rhys",
+            "Holly Taylor",
+            "Keidrich Sellati",
+            "Noah Emmerich",
+            "Costa Ronin",
+            "Margo Martindale"
+        ],
+        "numberOfSeasons": 6,
+        "numberOfEpisodes": 75,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/the-americans-46533-poster.jpg",
+        "backdropPath": "/generated/images/the-americans-46533-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 71714,
         "mediaType": "tv",
         "slug": "the-brave",
@@ -2529,7 +2722,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 7.053,
+        "voteAverage": 7.052,
         "originCountries": [
             "US"
         ],
@@ -2558,6 +2751,47 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": "J'ai beaucoup apprécié cette série qui présente des personnes très divers et attachants. Malheureusement, la série a été annulée après une saison, c'est vraiment dommage car elle avait du potentiel et j'aurai aimé voir la suite !"
     },
     {
+        "tmdbId": 93166,
+        "mediaType": "tv",
+        "slug": "the-capture",
+        "title": "The Capture",
+        "originalTitle": "The Capture",
+        "overview": "Plongée au coeur du monde troublant de la désinformation, des fausses nouvelles et des capacités technologiques des services de renseignement. A l'heure où la justice pénale s'appuie sur les preuves vidéos, pouvons-nous toujours croire ce que nous voyons ?",
+        "firstReleaseDate": "2019-09-03",
+        "lastReleaseDate": "2026-04-12",
+        "status": "Returning Series",
+        "genres": [
+            "Crime",
+            "Drame",
+            "Mystère"
+        ],
+        "voteAverage": 7.7,
+        "originCountries": [
+            "GB"
+        ],
+        "spokenLanguages": [
+            "English"
+        ],
+        "topCast": [
+            "Holliday Grainger",
+            "Ron Perlman",
+            "Ben Miles",
+            "Paapa Essiedu",
+            "Indira Varma",
+            "Tessa Wong",
+            "Daisy Waterstone",
+            "Killian Scott"
+        ],
+        "numberOfSeasons": 3,
+        "numberOfEpisodes": 18,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/the-capture-93166-poster.jpg",
+        "backdropPath": "/generated/images/the-capture-93166-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 60802,
         "mediaType": "tv",
         "slug": "the-last-ship",
@@ -2572,7 +2806,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 6.8,
+        "voteAverage": 6.871,
         "originCountries": [
             "US"
         ],
@@ -2615,7 +2849,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Mystère"
         ],
-        "voteAverage": 7.708,
+        "voteAverage": 7.691,
         "originCountries": [
             "US"
         ],
@@ -2644,6 +2878,89 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": null
     },
     {
+        "tmdbId": 210916,
+        "mediaType": "tv",
+        "slug": "the-recruit",
+        "title": "The Recruit",
+        "originalTitle": "The Recruit",
+        "overview": "Recruté par la CIA juste après son diplôme, un jeune avocat frondeur plonge sans préparation dans l'univers redoutable de l'espionnage international.",
+        "firstReleaseDate": "2022-12-16",
+        "lastReleaseDate": "2025-01-30",
+        "status": "Canceled",
+        "genres": [
+            "Drame",
+            "Crime",
+            "Action & Adventure"
+        ],
+        "voteAverage": 7.469,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English"
+        ],
+        "topCast": [
+            "Noah Centineo",
+            "Colton Dunn",
+            "Aarti Mann",
+            "Fivel Stewart",
+            "Kristian Bruun",
+            "Kaylah Zander",
+            "Maddie Hasson",
+            "Angel Parker"
+        ],
+        "numberOfSeasons": 2,
+        "numberOfEpisodes": 14,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/the-recruit-210916-poster.jpg",
+        "backdropPath": "/generated/images/the-recruit-210916-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
+        "tmdbId": 201992,
+        "mediaType": "tv",
+        "slug": "the-rookie-fbi",
+        "title": "The Rookie : FBI",
+        "originalTitle": "The Rookie: Feds",
+        "overview": "L'agent spécial Simone Clark, la plus ancienne recrue du FBI, est une force de la nature, l'incarnation vivante d'un rêve différé – et elle travaille avec ses nouveaux collègues du bureau du Bureau de Los Angeles pour faire tomber les criminels les plus coriaces du pays.",
+        "firstReleaseDate": "2022-09-27",
+        "lastReleaseDate": "2023-05-02",
+        "status": "Canceled",
+        "genres": [
+            "Crime",
+            "Drame"
+        ],
+        "voteAverage": 7,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English",
+            "Français"
+        ],
+        "topCast": [
+            "Niecy Nash",
+            "Felix Solis",
+            "James Lesure",
+            "Britt Robertson",
+            "Kevin Zegers",
+            "Frankie Faison",
+            "Devika Bhise"
+        ],
+        "numberOfSeasons": 1,
+        "numberOfEpisodes": 22,
+        "runtimeMinutes": 42,
+        "posterPath": "/generated/images/the-rookie-fbi-201992-poster.jpg",
+        "backdropPath": "/generated/images/the-rookie-fbi-201992-backdrop.jpg",
+        "types": [
+            "policier"
+        ],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 79744,
         "mediaType": "tv",
         "slug": "the-rookie-le-flic-de-los-angeles",
@@ -2651,14 +2968,14 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "The Rookie",
         "overview": "John Nolan, le rookie le plus âgé du LAPD, utilise son expérience de vie, sa détermination et son sens de l’humour pour suivre des recrues âgées de 20 ans de moins que lui.",
         "firstReleaseDate": "2018-10-16",
-        "lastReleaseDate": "2026-04-20",
+        "lastReleaseDate": "2026-05-04",
         "status": "Returning Series",
         "genres": [
             "Crime",
             "Drame",
             "Comédie"
         ],
-        "voteAverage": 8.532,
+        "voteAverage": 8.549,
         "originCountries": [
             "US"
         ],
@@ -2680,48 +2997,6 @@ export const generatedMedia: GeneratedMedia[] = [
         "runtimeMinutes": null,
         "posterPath": "/generated/images/the-rookie-le-flic-de-los-angeles-79744-poster.jpg",
         "backdropPath": "/generated/images/the-rookie-le-flic-de-los-angeles-79744-backdrop.jpg",
-        "types": [
-            "policier"
-        ],
-        "note": null,
-        "commentaire": null
-    },
-    {
-        "tmdbId": 201992,
-        "mediaType": "tv",
-        "slug": "the-rookie-feds",
-        "title": "The Rookie: Feds",
-        "originalTitle": "The Rookie: Feds",
-        "overview": "L'agent spécial Simone Clark, la plus ancienne recrue du FBI, est une force de la nature, l'incarnation vivante d'un rêve différé – et elle travaille avec ses nouveaux collègues du bureau du Bureau de Los Angeles pour faire tomber les criminels les plus coriaces du pays.",
-        "firstReleaseDate": "2022-09-27",
-        "lastReleaseDate": "2023-05-02",
-        "status": "Canceled",
-        "genres": [
-            "Crime",
-            "Drame"
-        ],
-        "voteAverage": 7.1,
-        "originCountries": [
-            "US"
-        ],
-        "spokenLanguages": [
-            "English",
-            "Français"
-        ],
-        "topCast": [
-            "Niecy Nash",
-            "Felix Solis",
-            "James Lesure",
-            "Britt Robertson",
-            "Kevin Zegers",
-            "Frankie Faison",
-            "Devika Bhise"
-        ],
-        "numberOfSeasons": 1,
-        "numberOfEpisodes": 22,
-        "runtimeMinutes": 42,
-        "posterPath": "/generated/images/the-rookie-feds-201992-poster.jpg",
-        "backdropPath": "/generated/images/the-rookie-feds-201992-backdrop.jpg",
         "types": [
             "policier"
         ],
@@ -2863,7 +3138,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.517,
+        "voteAverage": 8.5,
         "originCountries": [
             "SE"
         ],
@@ -2906,7 +3181,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.246,
+        "voteAverage": 7.266,
         "originCountries": [
             "US"
         ],
@@ -2959,6 +3234,11 @@ export const generatedSections = {
         "person-of-interest",
         "suits-avocats-sur-mesure",
         "blindspot",
-        "the-rookie-le-flic-de-los-angeles"
+        "the-rookie-le-flic-de-los-angeles",
+        "the-recruit",
+        "the-agency",
+        "en-service",
+        "the-capture",
+        "hanna"
     ]
 }
