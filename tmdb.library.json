@@ -798,7 +798,7 @@
         "espionnage"
       ],
       "favorite": false,
-      "recentlyWatched": false,
+      "recentlyWatched": true,
       "note": 5,
       "commentaire": "La série se regarde mais les intrigues sont plutôt prévisibles et tout cela manque de profondeur. Je suis pourtant assez fan de l'acteur principal qui aurait mérité de meilleurs intrigues à mon sens."
     },
@@ -920,7 +920,7 @@
       "titleHint": "Paradise",
       "types": [],
       "favorite": false,
-      "recentlyWatched": false,
+      "recentlyWatched": true,
       "note": null,
       "commentaire": null
     },
@@ -941,6 +941,36 @@
       "types": [],
       "favorite": false,
       "recentlyWatched": true,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 72750,
+      "mediaType": "tv",
+      "titleHint": "Killing Eve",
+      "types": [],
+      "favorite": false,
+      "recentlyWatched": true,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 108978,
+      "mediaType": "tv",
+      "titleHint": "Reacher",
+      "types": [],
+      "favorite": false,
+      "recentlyWatched": true,
+      "note": null,
+      "commentaire": null
+    },
+    {
+      "tmdbId": 217583,
+      "mediaType": "tv",
+      "titleHint": "Cœurs Noirs",
+      "types": [],
+      "favorite": false,
+      "recentlyWatched": false,
       "note": null,
       "commentaire": null
     }

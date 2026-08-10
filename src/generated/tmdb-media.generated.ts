@@ -25,7 +25,7 @@ export type GeneratedMedia = {
     commentaire: string | null
 }
 
-export const generatedAt = "2026-07-26T11:54:18.706Z"
+export const generatedAt = "2026-08-10T10:42:52.298Z"
 
 export const generatedMedia: GeneratedMedia[] = [
     {
@@ -43,7 +43,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Action & Adventure"
         ],
-        "voteAverage": 8.219,
+        "voteAverage": 8.224,
         "originCountries": [
             "US"
         ],
@@ -60,8 +60,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Corinne Massiah",
             "Elijah M. Cooper"
         ],
-        "numberOfSeasons": 9,
-        "numberOfEpisodes": 142,
+        "numberOfSeasons": 10,
+        "numberOfEpisodes": 143,
         "runtimeMinutes": null,
         "posterPath": "/generated/images/9-1-1-75219-poster.jpg",
         "backdropPath": "/generated/images/9-1-1-75219-backdrop.jpg",
@@ -86,7 +86,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 6.523,
+        "voteAverage": 6.52,
         "originCountries": [
             "US"
         ],
@@ -127,7 +127,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 7.52,
+        "voteAverage": 7.523,
         "originCountries": [
             "US"
         ],
@@ -157,7 +157,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "slug": "arrow",
         "title": "Arrow",
         "originalTitle": "Arrow",
-        "overview": "Les nouvelles aventures de Green Arrow/Oliver Queen, combattant ultra efficace issu de l'univers de DC Comics et surtout archer au talent fou, qui appartient notamment à la Justice League. Disparu en mer avec son père et sa petite amie, il est retrouvé vivant 5 ans plus tard sur une île près des côtes Chinoises. Mais il a changé : il est fort, courageux et déterminé à débarrasser Starling City de ses malfrats...",
+        "overview": "Les nouvelles aventures de Green Arrow/Oliver Queen, combattant ultra efficace issu de l'univers de DC Comics et surtout archer au talent fou, qui appartient notamment à la Justice League. Disparu en mer avec son père et sa petite amie, il est retrouvé vivant 5 ans plus tard sur une île près des côtes Chinoises. Mais il a changé : il est fort, courageux et déterminé à débarrasser Starling City de ses malfrats…",
         "firstReleaseDate": "2012-10-10",
         "lastReleaseDate": "2020-01-28",
         "status": "Ended",
@@ -208,7 +208,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 6.847,
+        "voteAverage": 6.837,
         "originCountries": [
             "US"
         ],
@@ -372,7 +372,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Comédie"
         ],
-        "voteAverage": 6.629,
+        "voteAverage": 6.667,
         "originCountries": [
             "FR"
         ],
@@ -414,7 +414,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.5,
+        "voteAverage": 7.541,
         "originCountries": [
             "US"
         ],
@@ -448,14 +448,14 @@ export const generatedMedia: GeneratedMedia[] = [
         "slug": "chicago-fire",
         "title": "Chicago Fire",
         "originalTitle": "Chicago Fire",
-        "overview": "La série se déroule de nos jours à Chicago, aux États-Unis et suit les membres d'une caserne des sapeurs-pompiers de la ville : le Chicago Fire Department.",
+        "overview": "Un aperçu captivant de la vie de héros du quotidien engagés dans l'une des professions les plus nobles des États-Unis. Pour les pompiers, les secouristes et les ambulanciers de la caserne 51 de Chicago, aucun métier n'est plus stressant ni plus dangereux, mais en même temps aussi gratifiant et exaltant. Ces hommes et ces femmes courageux font partie de cette élite qui se jette tête la première dans le danger alors que tout le monde s'enfuit dans la direction opposée, et dont les actions font la différence entre la vie et la mort.",
         "firstReleaseDate": "2012-10-10",
         "lastReleaseDate": "2026-05-13",
         "status": "Returning Series",
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.408,
+        "voteAverage": 8.407,
         "originCountries": [
             "US"
         ],
@@ -465,12 +465,11 @@ export const generatedMedia: GeneratedMedia[] = [
         "topCast": [
             "Taylor Kinney",
             "David Eigenberg",
-            "Joe Miñoso",
             "Christian Stolte",
             "Miranda Rae Mayo",
             "Hanako Greensmith",
             "Jocelyn Hudon",
-            "Brandon Larracuente"
+            "Da'Vinchi"
         ],
         "numberOfSeasons": 15,
         "numberOfEpisodes": 296,
@@ -496,7 +495,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.266,
+        "voteAverage": 8.258,
         "originCountries": [
             "US"
         ],
@@ -538,7 +537,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 8.425,
+        "voteAverage": 8.424,
         "originCountries": [
             "US"
         ],
@@ -549,7 +548,6 @@ export const generatedMedia: GeneratedMedia[] = [
             "Jason Beghe",
             "Marina Squerciati",
             "Patrick John Flueger",
-            "LaRoyce Hawkins",
             "Benjamin Levy Aguilar",
             "Arienne Mandi",
             "Amy Morton"
@@ -581,7 +579,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 7.707,
+        "voteAverage": 7.705,
         "originCountries": [
             "US"
         ],
@@ -624,7 +622,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Action & Adventure"
         ],
-        "voteAverage": 6.9,
+        "voteAverage": 6.871,
         "originCountries": [
             "US"
         ],
@@ -666,7 +664,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 6.7,
+        "voteAverage": 6.748,
         "originCountries": [
             "IT",
             "US"
@@ -712,7 +710,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 6.726,
+        "voteAverage": 6.659,
         "originCountries": [
             "US"
         ],
@@ -725,7 +723,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Varun Dhawan",
             "Kay Kay Menon",
             "Kashvi Majmundar",
-            "சிம்ரன்",
+            "Simran",
             "Saqib Saleem",
             "Sikandar Kher",
             "Shivankit Singh Parihar"
@@ -738,6 +736,38 @@ export const generatedMedia: GeneratedMedia[] = [
         "types": [
             "citadel"
         ],
+        "note": null,
+        "commentaire": null
+    },
+    {
+        "tmdbId": 217583,
+        "mediaType": "tv",
+        "slug": "c-urs-noirs",
+        "title": "Cœurs Noirs",
+        "originalTitle": "Cœurs Noirs",
+        "overview": "Irak, octobre 2016, veille de la bataille de Mossoul. Un commando des forces spéciales françaises est chargé de retrouver et d’exfiltrer de la ville la fille et le petit-fils d’un important Émir français de Daech qu’ils ont capturé et qui pose cette condition préalable à sa collaboration.",
+        "firstReleaseDate": "2023-02-03",
+        "lastReleaseDate": "2025-05-09",
+        "status": "Returning Series",
+        "genres": [
+            "Drame",
+            "War & Politics",
+            "Action & Adventure"
+        ],
+        "voteAverage": 8,
+        "originCountries": [
+            "FR"
+        ],
+        "spokenLanguages": [
+            "Français"
+        ],
+        "topCast": [],
+        "numberOfSeasons": 2,
+        "numberOfEpisodes": 12,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/c-urs-noirs-217583-poster.jpg",
+        "backdropPath": "/generated/images/c-urs-noirs-217583-backdrop.jpg",
+        "types": [],
         "note": null,
         "commentaire": null
     },
@@ -755,7 +785,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Drame"
         ],
-        "voteAverage": 6.859,
+        "voteAverage": 6.854,
         "originCountries": [
             "US"
         ],
@@ -796,7 +826,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 6.918,
+        "voteAverage": 6.9,
         "originCountries": [
             "US"
         ],
@@ -837,7 +867,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Drame"
         ],
-        "voteAverage": 7.255,
+        "voteAverage": 7.2,
         "originCountries": [
             "US"
         ],
@@ -879,7 +909,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 7.145,
+        "voteAverage": 7.153,
         "originCountries": [
             "US"
         ],
@@ -920,7 +950,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 7.614,
+        "voteAverage": 7.616,
         "originCountries": [
             "GB"
         ],
@@ -958,7 +988,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.387,
+        "voteAverage": 7.377,
         "originCountries": [
             "US"
         ],
@@ -993,7 +1023,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.9,
+        "voteAverage": 7.921,
         "originCountries": [
             "US"
         ],
@@ -1003,13 +1033,10 @@ export const generatedMedia: GeneratedMedia[] = [
         "topCast": [
             "Missy Peregrym",
             "Zeeko Zaki",
-            "John Boyd",
-            "Jeremy Sisto",
-            "Alana de la Garza",
-            "Juliana Aidén Martinez"
+            "Jeremy Sisto"
         ],
         "numberOfSeasons": 9,
-        "numberOfEpisodes": 157,
+        "numberOfEpisodes": 158,
         "runtimeMinutes": null,
         "posterPath": "/generated/images/fbi-80748-poster.jpg",
         "backdropPath": "/generated/images/fbi-80748-backdrop.jpg",
@@ -1033,7 +1060,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.6,
+        "voteAverage": 7.554,
         "originCountries": [
             "US"
         ],
@@ -1072,7 +1099,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 7.752,
+        "voteAverage": 7.75,
         "originCountries": [
             "US"
         ],
@@ -1107,13 +1134,13 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "Flashpoint",
         "overview": "Une plongée dans la vie des membres de la Strategic Response Unit, une force de police canadienne spécialisée dans les opérations paramilitaires. Prises d'otages, désamorçages de bombes, démantèlements de gangs... Tous les jours, ces policiers pas comme les autres mettent leur vie en jeu pour sauver celles des autres.",
         "firstReleaseDate": "2008-07-11",
-        "lastReleaseDate": "2013-11-15",
+        "lastReleaseDate": "2012-12-13",
         "status": "Ended",
         "genres": [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.316,
+        "voteAverage": 7.4,
         "originCountries": [
             "CA"
         ],
@@ -1194,7 +1221,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.455,
+        "voteAverage": 8.454,
         "originCountries": [
             "US"
         ],
@@ -1236,7 +1263,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.438,
+        "voteAverage": 7.44,
         "originCountries": [
             "US"
         ],
@@ -1264,7 +1291,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "slug": "hawaii-5-0",
         "title": "Hawaii 5-0",
         "originalTitle": "Hawaii Five-0",
-        "overview": "Le détective Steve McGarrett se rend à Oahu pour enquêter sur l'assassinat de son père. Une fois sur place, le gouverneur le persuade de rester et rejoindre l'unité des forces spéciales, qui combat le crime à Hawaii...",
+        "overview": "Le détective Steve McGarrett se rend à Oahu pour enquêter sur l'assassinat de son père. Une fois sur place, le gouverneur le persuade de rester et rejoindre l'unité des forces spéciales, qui combat le crime à Hawaii…",
         "firstReleaseDate": "2010-09-20",
         "lastReleaseDate": "2020-04-03",
         "status": "Ended",
@@ -1273,14 +1300,14 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.731,
+        "voteAverage": 7.727,
         "originCountries": [
             "US"
         ],
         "spokenLanguages": [
-            "Português",
+            "English",
             "Español",
-            "English"
+            "Português"
         ],
         "topCast": [
             "Alex O'Loughlin",
@@ -1316,7 +1343,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.6,
+        "voteAverage": 8.57,
         "originCountries": [
             "GB"
         ],
@@ -1359,7 +1386,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "War & Politics",
             "Crime"
         ],
-        "voteAverage": 7.589,
+        "voteAverage": 7.592,
         "originCountries": [
             "US"
         ],
@@ -1400,7 +1427,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.68,
+        "voteAverage": 7.679,
         "originCountries": [
             "US"
         ],
@@ -1436,6 +1463,45 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": "La série se regarde mais les intrigues sont plutôt prévisibles et tout cela manque de profondeur. Je suis pourtant assez fan de l'acteur principal qui aurait mérité de meilleurs intrigues à mon sens."
     },
     {
+        "tmdbId": 72750,
+        "mediaType": "tv",
+        "slug": "killing-eve",
+        "title": "Killing Eve",
+        "originalTitle": "Killing Eve",
+        "overview": "Cantonnée à un travail de bureau bien peu passionnant, l'agent du MI5 Eve Polastri est frustrée par une existence bien monotone. Jusqu'au jour où elle se retrouve à traquer une tueuse psychopathe surnommée Villanelle...",
+        "firstReleaseDate": "2018-04-08",
+        "lastReleaseDate": "2022-04-10",
+        "status": "Ended",
+        "genres": [
+            "Crime",
+            "Drame"
+        ],
+        "voteAverage": 7.895,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English"
+        ],
+        "topCast": [
+            "Sandra Oh",
+            "Jodie Comer",
+            "Fiona Shaw",
+            "Kim Bodnia",
+            "Camille Cottin",
+            "Robert Gilbert",
+            "Anjana Vasan"
+        ],
+        "numberOfSeasons": 4,
+        "numberOfEpisodes": 32,
+        "runtimeMinutes": 43,
+        "posterPath": "/generated/images/killing-eve-72750-poster.jpg",
+        "backdropPath": "/generated/images/killing-eve-72750-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 56401,
         "mediaType": "tv",
         "slug": "king-and-maxwell",
@@ -1449,7 +1515,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7,
+        "voteAverage": 6.917,
         "originCountries": [
             "US"
         ],
@@ -1488,7 +1554,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 8.2,
+        "voteAverage": 8.231,
         "originCountries": [
             "ES"
         ],
@@ -1501,8 +1567,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "Álvaro Morte",
             "Pedro Alonso",
             "Miguel Herrán",
-            "Jaime Lorente",
             "Esther Acebo",
+            "Jaime Lorente",
             "Najwa Nimri"
         ],
         "numberOfSeasons": 3,
@@ -1530,7 +1596,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 7.566,
+        "voteAverage": 7.583,
         "originCountries": [
             "US"
         ],
@@ -1604,13 +1670,13 @@ export const generatedMedia: GeneratedMedia[] = [
         "originalTitle": "Lioness",
         "overview": "Cruz Manuelos, une jeune Marine un peu brutale mais passionnée, a été recrutée pour rejoindre la mission Lioness afin d'aider à démanteler une organisation terroriste. Joe, la cheffe de station du programme Lioness, est chargée de former, de gérer et de diriger ces agents féminins infiltrés.",
         "firstReleaseDate": "2023-07-23",
-        "lastReleaseDate": "2024-12-08",
+        "lastReleaseDate": "2026-08-02",
         "status": "Returning Series",
         "genres": [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 7.996,
+        "voteAverage": 8.021,
         "originCountries": [
             "US"
         ],
@@ -1654,7 +1720,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 8.567,
+        "voteAverage": 8.562,
         "originCountries": [
             "US"
         ],
@@ -1696,7 +1762,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "War & Politics"
         ],
-        "voteAverage": 6.994,
+        "voteAverage": 7,
         "originCountries": [
             "US"
         ],
@@ -1738,7 +1804,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 7.5,
+        "voteAverage": 7.485,
         "originCountries": [
             "US"
         ],
@@ -1780,7 +1846,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Comédie"
         ],
-        "voteAverage": 6.273,
+        "voteAverage": 6.268,
         "originCountries": [
             "US"
         ],
@@ -1823,7 +1889,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 6.568,
+        "voteAverage": 6.582,
         "originCountries": [
             "US"
         ],
@@ -1860,22 +1926,14 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.61,
+        "voteAverage": 7.608,
         "originCountries": [
             "US"
         ],
         "spokenLanguages": [
             "English"
         ],
-        "topCast": [
-            "Sean Murray",
-            "Wilmer Valderrama",
-            "Katrina Law",
-            "Brian Dietzen",
-            "Rocky Carroll",
-            "Diona Reasonover",
-            "Gary Cole"
-        ],
+        "topCast": [],
         "numberOfSeasons": 24,
         "numberOfEpisodes": 508,
         "runtimeMinutes": null,
@@ -1901,7 +1959,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.705,
+        "voteAverage": 7.707,
         "originCountries": [
             "US"
         ],
@@ -1943,7 +2001,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Mystère"
         ],
-        "voteAverage": 7.528,
+        "voteAverage": 7.53,
         "originCountries": [
             "US"
         ],
@@ -1985,7 +2043,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Action & Adventure"
         ],
-        "voteAverage": 7.3,
+        "voteAverage": 7.275,
         "originCountries": [
             "US"
         ],
@@ -2026,7 +2084,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.508,
+        "voteAverage": 7.507,
         "originCountries": [
             "US"
         ],
@@ -2068,7 +2126,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 8.091,
+        "voteAverage": 8.1,
         "originCountries": [
             "US"
         ],
@@ -2136,6 +2194,45 @@ export const generatedMedia: GeneratedMedia[] = [
         "commentaire": "J'ai beaucoup apprécié la double temporalité présente dans la série, le suspens était très bien géré et la diversité des personnages est resté claire et compréhensible tout du long."
     },
     {
+        "tmdbId": 108978,
+        "mediaType": "tv",
+        "slug": "reacher",
+        "title": "Reacher",
+        "originalTitle": "Reacher",
+        "overview": "Ancien officier de Police Militaire, Jack Reacher est arrêté pour un meurtre qu'il n'a pas commis et découvre une conspiration sanglante où baignent flics véreux, hommes d'affaire louches et politiciens corrompus. Avec son astuce pour seule arme, il va déjouer ce qui se trame à Margrave en Géorgie.",
+        "firstReleaseDate": "2022-02-03",
+        "lastReleaseDate": "2025-03-27",
+        "status": "Returning Series",
+        "genres": [
+            "Action & Adventure",
+            "Drame",
+            "Crime"
+        ],
+        "voteAverage": 8.077,
+        "originCountries": [
+            "US"
+        ],
+        "spokenLanguages": [
+            "English"
+        ],
+        "topCast": [
+            "Alan Ritchson",
+            "Agnez Mo",
+            "Sydelle Noel",
+            "Anggun",
+            "Christopher Rodriguez Marquette",
+            "Kevin Corrigan"
+        ],
+        "numberOfSeasons": 4,
+        "numberOfEpisodes": 32,
+        "runtimeMinutes": null,
+        "posterPath": "/generated/images/reacher-108978-poster.jpg",
+        "backdropPath": "/generated/images/reacher-108978-backdrop.jpg",
+        "types": [],
+        "note": null,
+        "commentaire": null
+    },
+    {
         "tmdbId": 63329,
         "mediaType": "tv",
         "slug": "rosewood",
@@ -2188,7 +2285,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 8.042,
+        "voteAverage": 8.041,
         "originCountries": [
             "US"
         ],
@@ -2271,7 +2368,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 7.207,
+        "voteAverage": 7.198,
         "originCountries": [
             "US"
         ],
@@ -2314,7 +2411,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Crime"
         ],
-        "voteAverage": 8.202,
+        "voteAverage": 8.201,
         "originCountries": [
             "US"
         ],
@@ -2355,7 +2452,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Comédie",
             "Drame"
         ],
-        "voteAverage": 8.199,
+        "voteAverage": 8.197,
         "originCountries": [
             "GB"
         ],
@@ -2396,23 +2493,23 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 6.7,
+        "voteAverage": 6.676,
         "originCountries": [
             "CA"
         ],
         "spokenLanguages": [
-            "Español",
-            "English"
+            "English",
+            "Español"
         ],
         "topCast": [
             "Natasha Calis",
             "Morgan Holmstrom",
-            "Praneet Akilla",
-            "Aason Nadjiwan",
+            "Aaron Ashmore",
             "Mercedes Morris",
-            "Thomas Elms",
-            "Kheon Clarke",
-            "Rebecca Kwan"
+            "Alexander Eling",
+            "Shawn Ahmed",
+            "Leishe Meyboom",
+            "Cecilia Lee"
         ],
         "numberOfSeasons": 4,
         "numberOfEpisodes": 35,
@@ -2438,7 +2535,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Comédie"
         ],
-        "voteAverage": 6.393,
+        "voteAverage": 6.357,
         "originCountries": [
             "FR"
         ],
@@ -2479,7 +2576,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.221,
+        "voteAverage": 8.219,
         "originCountries": [
             "US"
         ],
@@ -2520,7 +2617,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Science-Fiction & Fantastique",
             "Action & Adventure"
         ],
-        "voteAverage": 7.274,
+        "voteAverage": 7.3,
         "originCountries": [
             "US"
         ],
@@ -2562,7 +2659,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 8.061,
+        "voteAverage": 8.1,
         "originCountries": [
             "US"
         ],
@@ -2602,7 +2699,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Comédie"
         ],
-        "voteAverage": 6.494,
+        "voteAverage": 6.474,
         "originCountries": [
             "US"
         ],
@@ -2640,15 +2737,15 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Mystère"
         ],
-        "voteAverage": 7.169,
+        "voteAverage": 7.2,
         "originCountries": [
             "US"
         ],
         "spokenLanguages": [
-            "English",
-            "Pусский",
             "العربية",
-            "فارسی"
+            "English",
+            "فارسی",
+            "Pусский"
         ],
         "topCast": [
             "Michael Fassbender",
@@ -2683,7 +2780,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Drame"
         ],
-        "voteAverage": 7.877,
+        "voteAverage": 7.9,
         "originCountries": [
             "US"
         ],
@@ -2722,7 +2819,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 7.052,
+        "voteAverage": 7.034,
         "originCountries": [
             "US"
         ],
@@ -2765,7 +2862,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Mystère"
         ],
-        "voteAverage": 7.7,
+        "voteAverage": 7.6,
         "originCountries": [
             "GB"
         ],
@@ -2806,7 +2903,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Science-Fiction & Fantastique"
         ],
-        "voteAverage": 6.871,
+        "voteAverage": 6.878,
         "originCountries": [
             "US"
         ],
@@ -2849,7 +2946,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Mystère"
         ],
-        "voteAverage": 7.691,
+        "voteAverage": 7.694,
         "originCountries": [
             "US"
         ],
@@ -2892,7 +2989,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Crime",
             "Action & Adventure"
         ],
-        "voteAverage": 7.469,
+        "voteAverage": 7.471,
         "originCountries": [
             "US"
         ],
@@ -2937,8 +3034,8 @@ export const generatedMedia: GeneratedMedia[] = [
             "US"
         ],
         "spokenLanguages": [
-            "English",
-            "Français"
+            "Français",
+            "English"
         ],
         "topCast": [
             "Niecy Nash",
@@ -2975,7 +3072,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Drame",
             "Comédie"
         ],
-        "voteAverage": 8.549,
+        "voteAverage": 8.546,
         "originCountries": [
             "US"
         ],
@@ -3016,7 +3113,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 7.5,
+        "voteAverage": 7.625,
         "originCountries": [
             "US"
         ],
@@ -3059,7 +3156,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Crime"
         ],
-        "voteAverage": 7.1,
+        "voteAverage": 7.02,
         "originCountries": [
             "US"
         ],
@@ -3097,7 +3194,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 6.3,
+        "voteAverage": 6.343,
         "originCountries": [
             "US"
         ],
@@ -3138,7 +3235,7 @@ export const generatedMedia: GeneratedMedia[] = [
         "genres": [
             "Drame"
         ],
-        "voteAverage": 8.5,
+        "voteAverage": 8.505,
         "originCountries": [
             "SE"
         ],
@@ -3181,7 +3278,7 @@ export const generatedMedia: GeneratedMedia[] = [
             "Action & Adventure",
             "Drame"
         ],
-        "voteAverage": 7.266,
+        "voteAverage": 7.26,
         "originCountries": [
             "US"
         ],
@@ -3235,10 +3332,14 @@ export const generatedSections = {
         "suits-avocats-sur-mesure",
         "blindspot",
         "the-rookie-le-flic-de-los-angeles",
+        "jack-ryan",
         "the-recruit",
         "the-agency",
         "en-service",
+        "paradise",
         "the-capture",
-        "hanna"
+        "hanna",
+        "killing-eve",
+        "reacher"
     ]
 }
